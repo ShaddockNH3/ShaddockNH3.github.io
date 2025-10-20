@@ -88,9 +88,33 @@ AI需要的前置知识太多了，不像其他语言那样那种，面向对象
 
 学习路线是没问题的，但是过于单薄，且学习曲线抽象，没有应用，没有后续，基于这些，我做了非常多的修改。
 
-整个考核的设计流程图如下——
+整个学习路线的设计流程如下——
 
----
+task1：py基础（含一定oop思想）
+task2：爬虫（基本业务可能会碰到的所有情况）
+task3：数据分析工具（numpy，pandas，matplotlib）
+task4：机器学习（knn，svm，softmax，两层神经网络，以及与深度学习机理不同的决策树，随机森林，xgboost等）
+task5：深度学习入门（反向传播，批/层归一化，cnn，pytorch）
+task6：深度学习深入
+llm：词嵌入，机器翻译，transformer
+cv：rnn，transformer，gan，ssl，ltsm
+task7：
+llm：hugging face生态（包括pipline，预训练），langchain框架
+cv：timm，opencv，Albumentations，OpenMMLab
+task8：
+llm应用：高级rag与agent，模型微调，lora
+llm科研：读论文
+cv应用：YOLO/Faster，R-CNN
+cv科研：读论文
+task9：
+llm应用：LLM部署与运维 (MLOps / LLMOps)，vllm，流式传输，容器
+llm科研：对齐，评估前沿内容
+cv应用（存疑？）：模型部署与MLOps
+cv科研：3D vision，Stable Diffusion，sora
+task10：
+AI安全与伦理，多模态，新架构，自己的理解
+
+当然对于考核，只要求task1-6。
 
 首先是task1，task1主要是学习计算机的基本习惯，git的使用，终端的初探，环境的配置等等。是的，我并没有说熟悉语法。许多小白上了大学第一次了解计算机这个学科，对于老手认为是常识的东西，很多东西都不了解，这些事项是需要时间去消化的，而且绝不只是2个月就能消化的。
 
