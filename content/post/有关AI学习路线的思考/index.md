@@ -116,23 +116,23 @@ task8：
 
 llm应用：高级rag与agent，模型微调，lora
 
-llm科研：读论文
+llm论文：BERT -> gpt2/3 -> LoRA -> RAG -> ReAct(Agent)
 
 cv应用：YOLO/Faster，R-CNN
 
-cv科研：读论文
+cv论文：AlexNet ->  ResNet -> R-CNN -> YOLO
 
 task9：
 
-llm应用：LLM部署与运维 (MLOps / LLMOps)，vllm，流式传输，容器
+llm应用：LLM部署与运维 (MLOps / LLMOps)，vllm推理，流式传输，容器
 
-llm科研：对齐，评估前沿内容
+llm论文：RLHF -> DPO -> HELM
 
-cv应用（存疑？）：模型部署与MLOps
+cv应用：CV部署与运维 (MLOps)，ONNX/TensorRT加速，实时应用，容器
 
-cv科研：3D vision，Stable Diffusion，sora
+cv论文：3D Vision -> Stable Diffusion -> DiT(Transformer&Diffusion, the core of sora)
 
-task10：AI安全与伦理，多模态，新架构，自己的理解
+task10：AI安全与伦理，Embodied AI/Robotics，多模态（Gemini系列），World Models（JEPA框架等），自己的理解
 
 当然对于考核，只要求task1-6。
 
