@@ -2,7 +2,7 @@
 title: "有关AI学习路线的思考"
 description: 关于西二AI考核设计与AI学习路线的深度思考
 date: 2025-10-19T09:09:48Z
-image: 
+image: image.png
 math: 
 license: 
 hidden: false
