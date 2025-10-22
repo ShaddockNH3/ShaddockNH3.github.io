@@ -1,0 +1,126 @@
+{{- $level := .Get "level" | default "0" -}}
+{{- $star := .Get "star" | default false -}}
+{{- $showDesc := .Get "desc" | default true -}}
+{{- $customDesc := .Get "description" -}}
+
+{{- $colors := dict 
+  "0" "#8FBC8F" 
+  "1" "#D9A295" 
+  "2" "#FFD700" 
+  "3" "#FFA500" 
+  "4" "#FF6347" 
+  "5" "#DC143C" 
+-}}
+
+{{- $descriptions := dict 
+  "0" "完全未使用AI" 
+  "1" "AI仅提供参考，未参与制作" 
+  "2" "人类主导，AI用于提升效果" 
+  "3" "人类审核过全部内容" 
+  "4" "存在未经人类审核的内容" 
+  "5" "完全由AI制作" 
+-}}
+
+{{- $categories := dict 
+  "0" "未经AI制作" 
+  "1" "未经AI制作" 
+  "2" "AI参与制作" 
+  "3" "AI参与制作" 
+  "4" "AI参与制作" 
+  "5" "由AI制作" 
+-}}
+
+{{- $color := index $colors $level -}}
+{{- $defaultDesc := index $descriptions $level -}}
+{{- $desc := $customDesc | default $defaultDesc -}}
+{{- $category := index $categories $level -}}
+
+<div class="iiia-badge" style="display: inline-flex; align-items: center; gap: 12px; padding: 14px 20px; background: linear-gradient(135deg, {{ $color }}25 0%, {{ $color }}10 100%); border: 2px solid {{ $color }}; border-radius: 12px; margin: 20px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; backdrop-filter: blur(10px); box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+  
+  <!-- AI Icon -->
+  <div class="iiia-icon" style="position: relative; width: 48px; height: 48px; flex-shrink: 0;">
+    <!-- Brain Shape using CSS -->
+    <svg width="48" height="48" viewBox="0 0 48 48" style="filter: drop-shadow(0 2px 4px {{ $color }}60);">
+      <!-- Brain outline -->
+      <path d="M24 8 C18 8, 14 12, 14 18 C14 20, 14.5 21.5, 15 23 C13 24, 12 26, 12 28 C12 31, 14 33, 17 34 C17 36, 18 38, 20 39 C22 40, 24 40, 24 40 C24 40, 26 40, 28 39 C30 38, 31 36, 31 34 C34 33, 36 31, 36 28 C36 26, 35 24, 33 23 C33.5 21.5, 34 20, 34 18 C34 12, 30 8, 24 8 Z" 
+            fill="none" 
+            stroke="{{ $color }}" 
+            stroke-width="3" 
+            stroke-linecap="round"
+            stroke-linejoin="round"/>
+      
+      <!-- Brain folds -->
+      <path d="M20 15 Q22 17, 24 15 T28 15" 
+            fill="none" 
+            stroke="{{ $color }}" 
+            stroke-width="2.5" 
+            stroke-linecap="round"/>
+      <path d="M18 22 Q20 24, 22 22" 
+            fill="none" 
+            stroke="{{ $color }}" 
+            stroke-width="2.5" 
+            stroke-linecap="round"/>
+      <path d="M26 22 Q28 24, 30 22" 
+            fill="none" 
+            stroke="{{ $color }}" 
+            stroke-width="2.5" 
+            stroke-linecap="round"/>
+      <path d="M20 29 Q22 31, 24 29 T28 29" 
+            fill="none" 
+            stroke="{{ $color }}" 
+            stroke-width="2.5" 
+            stroke-linecap="round"/>
+      
+      <!-- Center divider -->
+      <line x1="24" y1="12" x2="24" y2="36" 
+            stroke="{{ $color }}" 
+            stroke-width="2" 
+            stroke-dasharray="2,2" 
+            opacity="0.6"/>
+    </svg>
+    
+    <!-- Level Badge -->
+    <div style="position: absolute; bottom: -4px; right: -4px; width: 26px; height: 26px; background: {{ $color }}; border: 2.5px solid var(--card-background, #fff); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 13px; color: white; box-shadow: 0 2px 6px rgba(0,0,0,0.3); line-height: 1; padding-top: 1px;">
+      {{ $level }}{{ if $star }}*{{ end }}
+    </div>
+  </div>
+  
+  <!-- Text Content -->
+  <div class="iiia-content" style="flex: 1; min-width: 0;">
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap;">
+      <span style="font-weight: 700; font-size: 17px; color: {{ $color }}; letter-spacing: 0.5px; text-shadow: 0 1px 2px rgba(0,0,0,0.1);">
+        IIIA {{ $level }}{{ if $star }}*{{ end }}
+      </span>
+      <span class="iiia-category" style="font-size: 12px; color: var(--card-text-color-tertiary, #666); background: {{ $color }}20; padding: 3px 10px; border-radius: 6px; font-weight: 500; border: 1px solid {{ $color }}30;">
+        {{ $category }}
+      </span>
+    </div>
+    {{ if $showDesc }}
+    <div class="iiia-description" style="font-size: 14px; color: var(--card-text-color-secondary, #666); line-height: 1.5; opacity: 0.95;">
+      {{ $desc }}{{ if $star }} + AI主题{{ end }}
+    </div>
+    {{ end }}
+  </div>
+  
+  <!-- Info Icon (Optional hover for details) -->
+  <a href="https://ersansan233.github.io/IIIA/" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     title="了解更多关于AI参与指数"
+     class="iiia-info-link"
+     style="width: 22px; height: 22px; border-radius: 50%; background: {{ $color }}30; color: {{ $color }}; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; text-decoration: none; transition: all 0.2s; flex-shrink: 0; border: 1.5px solid {{ $color }}50;"
+     onmouseover="this.style.background='{{ $color }}'; this.style.color='white'; this.style.transform='scale(1.1)';"
+     onmouseout="this.style.background='{{ $color }}30'; this.style.color='{{ $color }}'; this.style.transform='scale(1)';">
+    ?
+  </a>
+</div>
+
+<style>
+.iiia-badge {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.iiia-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px {{ $color }}30;
+}
+</style>
