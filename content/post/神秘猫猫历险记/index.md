@@ -231,35 +231,62 @@ $$
 
 **露娜的辩证思考过程：**
 
-```javascript
-class DialecticalThinking {
-    analyze(situation) {
-        // 1. 分析矛盾的主要方面
-        const mainContradiction = {
-            主要矛盾: "王国的存亡",
-            次要矛盾: "个人的思乡之情"
-        };
-        
-        // 2. 区分现象与本质
-        const essence = {
-            现象: "我想回家",
-            本质: "我害怕承担责任"
-        };
-        
-        // 3. 运用否定之否定
-        const development = {
-            肯定: "我是一只普通的小猫",
-            否定: "但我被历史选中了",
-            否定之否定: "我要创造历史，而不是逃避历史"
-        };
-        
-        return "继续前进！";
-    }
+```go
+package main
+
+import "fmt"
+
+type DialecticalThinking struct{}
+
+type Contradiction struct {
+	Main      string
+	Secondary string
 }
 
-const luna = new DialecticalThinking();
-console.log(luna.analyze("时间迷宫"));
-// 输出：继续前进！
+type Essence struct {
+	Phenomenon string
+	Reality    string
+}
+
+type Development struct {
+	Affirmation       string
+	Negation          string
+	NegationOfNegation string
+}
+
+func (dt *DialecticalThinking) Analyze(situation string) string {
+	// 1. 分析矛盾的主要方面
+	mainContradiction := Contradiction{
+		Main:      "王国的存亡",
+		Secondary: "个人的思乡之情",
+	}
+	
+	// 2. 区分现象与本质
+	essence := Essence{
+		Phenomenon: "我想回家",
+		Reality:    "我害怕承担责任",
+	}
+	
+	// 3. 运用否定之否定
+	development := Development{
+		Affirmation:        "我是一只普通的小猫",
+		Negation:           "但我被历史选中了",
+		NegationOfNegation: "我要创造历史，而不是逃避历史",
+	}
+	
+	_ = mainContradiction
+	_ = essence
+	_ = development
+	
+	return "继续前进！"
+}
+
+func main() {
+	luna := &DialecticalThinking{}
+	result := luna.Analyze("时间迷宫")
+	fmt.Println(result)
+	// 输出：继续前进！
+}
 ```
 
 "我选择未来！"露娜坚定地说，"即使前路未知，我也要为那些依赖我的生命而战！**个人的命运，与历史的进程紧密相连。**"
