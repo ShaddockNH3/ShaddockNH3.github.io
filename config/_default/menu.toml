@@ -1,11 +1,6 @@
 # Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
+
+# 归档、关于和友链页面会自动从页面的 front matter 中读取菜单配置
 
 [[social]]
 identifier = "github"
@@ -16,9 +11,9 @@ url = "https://github.com/ShaddockNH3"
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "rss"
+name = "RSS"
+url = "/index.xml"
 
 [social.params]
-icon = "brand-twitter"
+icon = "rss"

@@ -8,6 +8,15 @@ license:
 hidden: false
 comments: true
 draft: false
+categories:
+    - 经验分享
+    - 大学生活
+tags:
+    - 转专业
+    - 福州大学
+    - 计算机
+    - 备考经验
+    - 学习方法
 ---
 
 ## 作者信息

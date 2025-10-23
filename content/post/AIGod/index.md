@@ -6,8 +6,13 @@ image: back.jpg
 math: 
 license: 
 hidden: false
-comments: false
+comments: true
 draft: false
+categories:
+    - 杂谈
+tags:
+    - 测试
+    - 神秘
 ---
 
 ## 神秘大只

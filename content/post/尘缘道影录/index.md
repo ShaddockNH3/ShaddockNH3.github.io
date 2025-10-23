@@ -6,9 +6,19 @@ image: shenmi.png
 math: 
 license: 
 hidden: false
-comments: false
+comments: true
 draft: false
+categories:
+    - 文学创作
+    - 故事
+tags:
+    - 修仙
+    - 原创小说
+    - 道途
+    - 成长
 ---
+
+{{< iiia level="3" >}}
 
 此录乃云游道人于古崖石壁偶观之印记，以神念拓下，流传于世。观者自是有缘，或可窥大道一隅。
 
