@@ -1,0 +1,11 @@
+# Japanese language configuration
+languageName = "日本語"
+languageDirection = "ltr"
+title = "ShaddockNH3"
+weight = 3
+
+[params]
+description = "技術、文学、哲学の交差点"
+
+[params.sidebar]
+subtitle = "道の途中で名声を求める、謙虚で無名の魂。"

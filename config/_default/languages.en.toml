@@ -1,0 +1,11 @@
+# English language configuration
+languageName = "English"
+languageDirection = "ltr"
+title = "ShaddockNH3"
+weight = 2
+
+[params]
+description = "Technology, Literature, and Philosophy"
+
+[params.sidebar]
+subtitle = "Just a humble and obscure soul, dreaming of ascending to prominence while journeying along the path."
