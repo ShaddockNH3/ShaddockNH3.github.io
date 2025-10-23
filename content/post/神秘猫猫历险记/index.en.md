@@ -2,6 +2,7 @@
 title: "The Mysterious Cat's Adventure"
 description: "✨ A magical cat traveling through time and space, unraveling the millennium-old mysteries of a lost kingdom | An epic fantasy adventure filled with magic, courage, and friendship 🌟"
 date: 2025-10-23T00:00:00Z
+slug: "the-mysterious-cats-adventure"
 image: 
 math: true
 license: 
