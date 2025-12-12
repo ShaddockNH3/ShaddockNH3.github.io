@@ -7,7 +7,7 @@ math: false
 license: 
 hidden: false
 comments: true
-draft: false
+draft: true
 categories:
     - 杂谈
     - 经验分享
