@@ -650,7 +650,7 @@ def predict_enemy_genre(self):
 
 ## 七、致谢
 
-感谢 [nnieie](github.com/nnieie) 陪同我一起攻克部署难关，使用四天，花费 xx 小时完成了这次在树莓派上运行 `ALAS` 的壮举。
+感谢 [nnieie](github.com/nnieie) 陪同我一起攻克部署难关，使用 3 天，花费 27 小时完成了这次在树莓派上运行 `ALAS` 的壮举。
 
 感谢 [blueinsane0727](https://github.com/blueinsane0727)，她说致谢随便写，那就不写了。
 
