@@ -1,0 +1,62 @@
+<!-- 开场页脚本 -->
+<script>
+  (function() {
+    // 检查是否是首次访问或从其他页面返回首页
+    const isHomePage = window.location.pathname === '/' || window.location.pathname === '/index.html';
+    const hasSeenSplash = sessionStorage.getItem('splashShown');
+    
+    if (isHomePage && !hasSeenSplash) {
+      // 标记已显示开场页（当前会话）
+      sessionStorage.setItem('splashShown', 'true');
+      
+      // 添加loading类到body
+      document.body.classList.add('splash-loading');
+      
+      // 创建开场页元素
+      const splashScreen = document.createElement('div');
+      splashScreen.id = 'splash-screen';
+      
+      // 设置背景图片（用于虚化效果）
+      splashScreen.style.setProperty('--splash-bg-image', 'url(/splash.png)');
+      
+      const splashContent = document.createElement('div');
+      splashContent.className = 'splash-content';
+      
+      const splashImage = document.createElement('img');
+      splashImage.id = 'splash-image';
+      splashImage.src = '/splash.png'; // 开场图片路径
+      splashImage.alt = 'Welcome';
+      
+      const splashText = document.createElement('div');
+      splashText.className = 'splash-text';
+      
+      const splashTitle = document.createElement('h1');
+      splashTitle.className = 'splash-title';
+      splashTitle.textContent = 'ShaddockNH3';
+      
+      const splashSubtitle = document.createElement('p');
+      splashSubtitle.className = 'splash-subtitle';
+      splashSubtitle.textContent = '技术、文学与哲学的交汇之地';
+      
+      splashText.appendChild(splashTitle);
+      splashText.appendChild(splashSubtitle);
+      
+      splashContent.appendChild(splashImage);
+      splashContent.appendChild(splashText);
+      splashScreen.appendChild(splashContent);
+      
+      document.body.insertBefore(splashScreen, document.body.firstChild);
+      
+      // 2.5秒后开始淡出动画
+      setTimeout(function() {
+        splashScreen.classList.add('fade-out');
+        document.body.classList.remove('splash-loading');
+        
+        // 淡出动画完成后移除元素
+        setTimeout(function() {
+          splashScreen.remove();
+        }, 1000);
+      }, 2500);
+    }
+  })();
+</script>

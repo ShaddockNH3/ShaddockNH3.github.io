@@ -19,7 +19,7 @@ tags:
 
 {{< iiia level="2" >}}
 
-## 🐾 更新日志 (2025.12.20)
+## 更新日志 (2025.12.20)
 
 - **2025.12.20：** 此前的源码修改方案存在误区，问题未能彻底解决。本次更新将详细记录问题再次排查的过程，并提供一个**更通用、更底层的 `ALAS` 源码修正方案**，以一劳永逸地解决 `OpenCV matchTemplate` 因图像类型不匹配而导致的报错，彻底攻克海图识别的难题。
 - **2025.12.15-2025.12.17：** 对博客的整体表达、流程描述及技术细节进行了梳理与优化，使其更易于理解和实践。
@@ -203,8 +203,8 @@ pip install onepush==1.4.0
 3. **手动安装 `mxnet` 深度学习框架**：
    `cnocr` 依赖的 `mxnet` 库没有提供官方的 `arm64` `pip` 包。我们需要手动安装。
 
-   * **第一步：安装 `.whl` 文件**。下载社区提供的 `mxnet-1.9.1-py3-none-any.whl` 文件，并使用 `pip install mxnet-1.9.1-py3-none-any.whl` 安装。
-   * **第二步：移动 `.so` 文件**。安装后，关键的动态链接库 (`.so` 文件) 并未在正确位置。它们被安装在了 `ALAS-venv/mxnet/` 目录下。需要手动将这些文件移动到 Python 环境的包路径中：
+   - **第一步：安装 `.whl` 文件**。下载社区提供的 `mxnet-1.9.1-py3-none-any.whl` 文件，并使用 `pip install mxnet-1.9.1-py3-none-any.whl` 安装。
+   - **第二步：移动 `.so` 文件**。安装后，关键的动态链接库 (`.so` 文件) 并未在正确位置。它们被安装在了 `ALAS-venv/mxnet/` 目录下。需要手动将这些文件移动到 Python 环境的包路径中：
 
      ```bash
      mv ALAS-venv/mxnet/*.so ALAS_venv/lib/python3.8/site-packages/mxnet/
