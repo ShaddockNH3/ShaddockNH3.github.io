@@ -656,3 +656,165 @@ A 题 O 奖我稍微纠正一下周老师吧，A 题 O 奖 其实就只有五个
 周老师：
 
 好。
+
+## 爬取腾讯会议会议纪要的脚本
+
+```python
+import time
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+from webdriver_manager.chrome import ChromeDriverManager
+from bs4 import BeautifulSoup
+
+def scrape_tencent_meeting_keyboard(url):
+    # 🐾 1. 启动！
+    options = webdriver.ChromeOptions()
+    options.add_argument("--log-level=3") 
+    options.add_argument("--mute-audio") 
+    
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    # 窗口尽量拉高，这样一屏能容纳更多内容，减少滚动次数
+    driver.set_window_size(1000, 900) 
+
+    unique_sentences = {} 
+
+    try:
+        print(f"🐱 正在打开页面：{url}")
+        driver.get(url)
+        
+        print("⏳ 等待页面完全加载 (8秒)...")
+        time.sleep(8) 
+        
+        print("🖱️ 正在尝试点击文字区域以获取焦点...")
+        
+        # --- A. 关键步骤：点击文字，获取焦点 ---
+        try:
+            # 找到第一行文字的容器
+            first_text = driver.find_element(By.CSS_SELECTOR, "div[class*='minutes-module-paragraph']")
+            # 点击它，确保当前网页的“活动元素”是这个文字区
+            ActionChains(driver).move_to_element(first_text).click().perform()
+            print("✨ 焦点锁定成功！准备开始按键阅读...")
+        except Exception as e:
+            print(f"😿 点击失败，尝试直接点击 Body: {e}")
+            driver.find_element(By.TAG_NAME, 'body').click()
+
+        last_count = 0
+        no_new_data_attempts = 0
+        
+        # --- B. 循环：模拟按“下”键 + 抓取 ---
+        # 既然是长会议，我们多循环几次
+        for i in range(300): 
+            # 1. 抓取当前屏幕数据
+            page_source = driver.page_source
+            soup = BeautifulSoup(page_source, "html.parser")
+            
+            rows = soup.select("div[class*='minutes-module-row']")
+            for row in rows:
+                speaker_elem = row.select_one("div[class*='speaker-name']")
+                current_speaker = speaker_elem.get_text(strip=True) if speaker_elem else None
+                
+                sentences = row.select("span[class*='sentence-module_sentence']")
+                for sent in sentences:
+                    sid = sent.get("data-sid")
+                    text = sent.get_text(strip=True)
+                    if sid:
+                        if sid not in unique_sentences:
+                            unique_sentences[sid] = {
+                                "sid": int(sid),
+                                "speaker": current_speaker, 
+                                "text": text
+                            }
+                        elif unique_sentences[sid]["speaker"] is None and current_speaker:
+                            unique_sentences[sid]["speaker"] = current_speaker
+
+            # 2. 进度判断
+            current_count = len(unique_sentences)
+            if i % 10 == 0: # 每10次报个平安
+                print(f"🔄 第 {i} 轮按键 | 已收集句子: {current_count}")
+
+            if current_count == last_count:
+                no_new_data_attempts += 1
+                # 连续20次没新数据才算到底，因为按键滚得慢
+                if no_new_data_attempts >= 20: 
+                    print("🏁 连续多次没有新内容，判断已到底部，喵！")
+                    break
+            else:
+                no_new_data_attempts = 0
+            
+            last_count = current_count
+
+            # 3. 物理操作：按下方向键 (Arrow Down)
+            # 每次循环按 5 次下键，模拟快速阅读
+            try:
+                # 使用 ActionChains 连续按键
+                actions = ActionChains(driver)
+                for _ in range(5):
+                    actions.send_keys(Keys.ARROW_DOWN)
+                actions.perform()
+                
+                # 或者尝试 PageDown，如果 Down 太慢的话
+                # actions.send_keys(Keys.PAGE_DOWN).perform()
+                
+            except Exception as e:
+                # 有时候焦点丢了，重新点一下 Body
+                driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ARROW_DOWN)
+
+            # 稍微停顿，给网页加载时间 (非常重要，太快会跳过)
+            time.sleep(0.5) 
+
+        # --- C. 结果整理 ---
+        print("✨ 正在拼接完整记录...")
+        sorted_sids = sorted(unique_sentences.keys(), key=lambda x: int(x))
+        
+        final_results = []
+        current_block = {"speaker": "未知说话人", "text": ""}
+        
+        for sid in sorted_sids:
+            item = unique_sentences[sid]
+            speaker = item["speaker"]
+            text = item["text"]
+            
+            if not speaker:
+                speaker = current_block["speaker"]
+            
+            if speaker != current_block["speaker"]:
+                if current_block["text"]: 
+                    final_results.append(current_block)
+                current_block = {"speaker": speaker, "text": text}
+            else:
+                current_block["text"] += text
+
+        if current_block["text"]:
+            final_results.append(current_block)
+
+        return final_results
+
+    except Exception as e:
+        print(f"😿 出大问题了: {e}")
+        return []
+        
+    finally:
+        driver.quit()
+
+if __name__ == "__main__":
+    target_url = ""
+    
+    results = scrape_tencent_meeting_keyboard(target_url)
+    
+    if results:
+        print("\n" + "="*30)
+        filename = "tencent_meeting_final_v2.txt"
+        with open(filename, "w", encoding="utf-8") as f:
+            for item in results:
+                # 简单清洗一下格式
+                clean_text = item['text'].replace('\n', ' ')
+                line = f"【{item['speaker']}】: {clean_text}\n"
+                print(line.strip()[:60] + "...") 
+                f.write(line + "\n")
+        print(f"\n🎉 终于搞定啦！内容已保存到 {filename}，快去检查一下有没有少！")
+    else:
+        print("\n😿 还是空的... 这网页有毒吧！")
+```
