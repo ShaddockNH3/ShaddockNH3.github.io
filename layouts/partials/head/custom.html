@@ -130,8 +130,61 @@
     }
   }
 
-  /* 防止页面在加载时闪烁 */
+  /* 防止页面在加载时闪烁 - 使用纯CSS方案 */
   body.splash-loading {
     overflow: hidden;
   }
+
+  /* 检测是否首页且未看过开场页 - 用CSS隐藏内容 */
+  html.splash-init body > *:not(script) {
+    visibility: hidden !important;
+  }
+
+  /* 占位遮罩层（纯CSS，用伪元素实现） */
+  html.splash-init body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1e1e2e 0%, #2d1b4e 100%);
+    z-index: 9998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Loading动画 */
+  html.splash-init body::after {
+    content: '';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    z-index: 9999;
+  }
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
 </style>
+
+<!-- 立即执行：检测首页并添加class -->
+<script>
+  (function() {
+    const isHomePage = window.location.pathname === '/' || window.location.pathname === '/index.html';
+    const hasSeenSplash = sessionStorage.getItem('splashShown');
+    
+    if (isHomePage && !hasSeenSplash) {
+      // 立即添加class到html元素，触发CSS隐藏
+      document.documentElement.classList.add('splash-init');
+    }
+  })();
+</script>

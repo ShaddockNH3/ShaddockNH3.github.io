@@ -1,43 +1,65 @@
 <!-- 开场页脚本 -->
 <script>
   (function() {
-    // 检查是否是首次访问或从其他页面返回首页
+    // 检查是否是首页
     const isHomePage = window.location.pathname === '/' || window.location.pathname === '/index.html';
     const hasSeenSplash = sessionStorage.getItem('splashShown');
     
-    if (isHomePage && !hasSeenSplash) {
-      // 标记已显示开场页（当前会话）
-      sessionStorage.setItem('splashShown', 'true');
+    if (!isHomePage || hasSeenSplash) {
+      return;
+    }
+
+    const splashImageUrl = '/splash.png';
+    const LOADING_TIMEOUT = 5000; // 5秒超时
+    const MIN_DISPLAY_TIME = 2500; // 至少显示2.5秒
+
+    // 预加载图片
+    const preloadImage = new Image();
+    let imageLoaded = false;
+
+    // 超时保护：如果5秒内图片未加载完成，直接跳过开场页
+    const timeout = setTimeout(function() {
+      if (!imageLoaded) {
+        console.warn('开场图片加载超时，跳过开场页');
+        sessionStorage.setItem('splashShown', 'true');
+        document.documentElement.classList.remove('splash-init');
+      }
+    }, LOADING_TIMEOUT);
+
+    preloadImage.onload = function() {
+      imageLoaded = true;
+      clearTimeout(timeout);
       
-      // 添加loading类到body
+      // 标记已显示（防止重复显示）
+      sessionStorage.setItem('splashShown', 'true');
+
+      // 移除占位层样式
+      document.documentElement.classList.remove('splash-init');
       document.body.classList.add('splash-loading');
       
-      // 创建开场页元素
       const splashScreen = document.createElement('div');
       splashScreen.id = 'splash-screen';
-      
-      // 设置背景图片（用于虚化效果）
-      splashScreen.style.setProperty('--splash-bg-image', 'url(/splash.png)');
-      
+      splashScreen.style.setProperty('--splash-bg-image', 'url(' + splashImageUrl + ')');
+
       const splashContent = document.createElement('div');
       splashContent.className = 'splash-content';
-      
+
       const splashImage = document.createElement('img');
       splashImage.id = 'splash-image';
-      splashImage.src = '/splash.png'; // 开场图片路径
+      splashImage.src = splashImageUrl;
       splashImage.alt = 'Welcome';
-      
+
       const splashText = document.createElement('div');
       splashText.className = 'splash-text';
-      
+
       const splashTitle = document.createElement('h1');
       splashTitle.className = 'splash-title';
       splashTitle.textContent = 'ShaddockNH3';
-      
+
       const splashSubtitle = document.createElement('p');
       splashSubtitle.className = 'splash-subtitle';
       splashSubtitle.textContent = '技术、文学与哲学的交汇之地';
-      
+
       splashText.appendChild(splashTitle);
       splashText.appendChild(splashSubtitle);
       
@@ -46,8 +68,8 @@
       splashScreen.appendChild(splashContent);
       
       document.body.insertBefore(splashScreen, document.body.firstChild);
-      
-      // 2.5秒后开始淡出动画
+
+      // 至少显示MIN_DISPLAY_TIME毫秒后开始淡出
       setTimeout(function() {
         splashScreen.classList.add('fade-out');
         document.body.classList.remove('splash-loading');
@@ -56,7 +78,17 @@
         setTimeout(function() {
           splashScreen.remove();
         }, 1000);
-      }, 2500);
-    }
+      }, MIN_DISPLAY_TIME);
+    };
+
+    preloadImage.onerror = function() {
+      clearTimeout(timeout);
+      console.error('开场图片加载失败，跳过开场页');
+      sessionStorage.setItem('splashShown', 'true');
+      document.documentElement.classList.remove('splash-init');
+    };
+
+    // 开始预加载
+    preloadImage.src = splashImageUrl;
   })();
 </script>
