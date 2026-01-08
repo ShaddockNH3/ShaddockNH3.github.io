@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>树莓派 on ShaddockNH3</title><link>https://shaddocknh3.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</link><description>Recent content in 树莓派 on ShaddockNH3</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://shaddocknh3.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>树莓派 5 部署 ALAS 运行 碧蓝航线</title><link>https://shaddocknh3.github.io/p/%E6%A0%91%E8%8E%93%E6%B4%BE-5-%E9%83%A8%E7%BD%B2-alas-%E8%BF%90%E8%A1%8C-%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF/</link><pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate><guid>https://shaddocknh3.github.io/p/%E6%A0%91%E8%8E%93%E6%B4%BE-5-%E9%83%A8%E7%BD%B2-alas-%E8%BF%90%E8%A1%8C-%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF/</guid><description>&lt;img src="https://shaddocknh3.github.io/p/%E6%A0%91%E8%8E%93%E6%B4%BE-5-%E9%83%A8%E7%BD%B2-alas-%E8%BF%90%E8%A1%8C-%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF/image.png" alt="Featured image of post 树莓派 5 部署 ALAS 运行 碧蓝航线" /&gt;&lt;div class="iiia-badge" style="display: inline-flex; align-items: center; gap: 12px; padding: 14px 20px; background: linear-gradient(135deg, #FFD70025 0%, #FFD70010 100%); border: 2px solid #FFD700; border-radius: 12px; margin: 20px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; backdrop-filter: blur(10px); box-shadow: 0 2px 8px rgba(0,0,0,0.15);"&gt;
+&lt;div class="iiia-icon" style="position: relative; width: 48px; height: 48px; flex-shrink: 0;"&gt;
+&lt;svg width="48" height="48" viewBox="0 0 48 48" style="filter: drop-shadow(0 2px 4px #FFD70060);"&gt;
+&lt;path d="M24 8 C18 8, 14 12, 14 18 C14 20, 14.5 21.5, 15 23 C13 24, 12 26, 12 28 C12 31, 14 33, 17 34 C17 36, 18 38, 20 39 C22 40, 24 40, 24 40 C24 40, 26 40, 28 39 C30 38, 31 36, 31 34 C34 33, 36 31, 36 28 C36 26, 35 24, 33 23 C33.5 21.5, 34 20, 34 18 C34 12, 30 8, 24 8 Z"
+fill="none"
+stroke="#FFD700"
+stroke-width="3"
+stroke-linecap="round"
+stroke-linejoin="round"/&gt;
+&lt;path d="M20 15 Q22 17, 24 15 T28 15"
+fill="none"
+stroke="#FFD700"
+stroke-width="2.5"
+stroke-linecap="round"/&gt;
+&lt;path d="M18 22 Q20 24, 22 22"
+fill="none"
+stroke="#FFD700"
+stroke-width="2.5"
+stroke-linecap="round"/&gt;
+&lt;path d="M26 22 Q28 24, 30 22"
+fill="none"
+stroke="#FFD700"
+stroke-width="2.5"
+stroke-linecap="round"/&gt;
+&lt;path d="M20 29 Q22 31, 24 29 T28 29"
+fill="none"
+stroke="#FFD700"
+stroke-width="2.5"
+stroke-linecap="round"/&gt;
+&lt;line x1="24" y1="12" x2="24" y2="36"
+stroke="#FFD700"
+stroke-width="2"
+stroke-dasharray="2,2"
+opacity="0.6"/&gt;
+&lt;/svg&gt;
+&lt;div style="position: absolute; bottom: -4px; right: -4px; width: 26px; height: 26px; background: #FFD700; border: 2.5px solid var(--card-background, #fff); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 13px; color: white; box-shadow: 0 2px 6px rgba(0,0,0,0.3); line-height: 1; padding-top: 1px;"&gt;
+2
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="iiia-content" style="flex: 1; min-width: 0;"&gt;
+&lt;div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap;"&gt;
+&lt;span style="font-weight: 700; font-size: 17px; color: #FFD700; letter-spacing: 0.5px; text-shadow: 0 1px 2px rgba(0,0,0,0.1);"&gt;
+IIIA 2
+&lt;/span&gt;
+&lt;span class="iiia-category" style="font-size: 12px; color: var(--card-text-color-tertiary, #666); background: #FFD70020; padding: 3px 10px; border-radius: 6px; font-weight: 500; border: 1px solid #FFD70030;"&gt;
+AI参与制作
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="iiia-description" style="font-size: 14px; color: var(--card-text-color-secondary, #666); line-height: 1.5; opacity: 0.95;"&gt;
+人类主导，AI用于提升效果
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a href="https://ersansan233.github.io/IIIA/"
+target="_blank"
+rel="noopener noreferrer"
+title="了解更多关于AI参与指数"
+class="iiia-info-link"
+style="width: 22px; height: 22px; border-radius: 50%; background: #FFD70030; color: #FFD700; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; text-decoration: none; transition: all 0.2s; flex-shrink: 0; border: 1.5px solid #FFD70050;"
+onmouseover="this.style.background='#FFD700'; this.style.color='white'; this.style.transform='scale(1.1)';"
+onmouseout="this.style.background='#FFD70030'; this.style.color='#FFD700'; this.style.transform='scale(1)';"&gt;
+?
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.iiia-badge {
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.iiia-badge:hover {
+transform: translateY(-2px);
+box-shadow: 0 4px 12px #FFD70030;
+}
+&lt;/style&gt;
+&lt;h2 id="更新日志-20251220"&gt;更新日志 (2025.12.20)
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2025.12.20：&lt;/strong&gt; 此前的源码修改方案存在误区，问题未能彻底解决。本次更新将详细记录问题再次排查的过程，并提供一个&lt;strong&gt;更通用、更底层的 &lt;code&gt;ALAS&lt;/code&gt; 源码修正方案&lt;/strong&gt;，以一劳永逸地解决 &lt;code&gt;OpenCV matchTemplate&lt;/code&gt; 因图像类型不匹配而导致的报错，彻底攻克海图识别的难题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2025.12.15-2025.12.17：&lt;/strong&gt; 对博客的整体表达、流程描述及技术细节进行了梳理与优化，使其更易于理解和实践。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2025.12.14：&lt;/strong&gt; 博客初稿发布，记录树莓派 5 部署 &lt;code&gt;ALAS&lt;/code&gt; 的初步探索和基础环境搭建。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="一前言"&gt;一、前言
+&lt;/h2&gt;&lt;p&gt;随着考研周期的临近，学业压力日益加重，如何高效利用时间、平衡学习与娱乐成为了一个现实问题。&lt;/p&gt;
+&lt;p&gt;我的主力设备是一台联想小新13笔记本。由于有学习 Go 语言等开发需求，我需要开启 WSL (Windows Subsystem for Linux)，这依赖于 Hyper-V 虚拟化平台。然而，在 Hyper-V 模式下，常用的安卓模拟器（如 MuMu 模拟器）性能表现不佳，运行《碧蓝航线》等游戏时会出现明显的卡顿。这不仅影响了游戏体验，更重要的是，一个需要24小时不间断运行的 &lt;code&gt;ALAS&lt;/code&gt; 自动化程序，会持续占用本应用于学习的电脑资源，与我希望将学习和娱乐环境彻底隔离的初衷相悖。&lt;/p&gt;
+&lt;p&gt;为了将这个7x24小时的挂机任务从我的主力学习设备中剥离，解放笔记本的性能，我决定将《碧蓝航线》及其自动化项目 &lt;code&gt;ALAS&lt;/code&gt; 部署到一台独立的低功耗设备上。恰巧手头有一台 SRTP 项目用剩下来的树莓派5 (Raspberry Pi 5)，其强大的性能和极低的功耗完美契合了我的需求。遂决定利用它来搭建 &lt;code&gt;ALAS&lt;/code&gt; 环境，实现《碧蓝航线》的自动化运行。&lt;/p&gt;
+&lt;p&gt;本篇博客旨在记录在树莓派5上从零开始部署 &lt;code&gt;ALAS&lt;/code&gt; 并成功运行《碧蓝航线》的全过程，希望能为有类似需求的指挥官们提供一份参考。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://shaddocknh3.github.io/p/%E6%A0%91%E8%8E%93%E6%B4%BE-5-%E9%83%A8%E7%BD%B2-alas-%E8%BF%90%E8%A1%8C-%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF/image/93bb5537f5e589594a75a0e4b8f171a2_720.jpg"
+width="650"
+height="650"
+srcset="https://shaddocknh3.github.io/p/%E6%A0%91%E8%8E%93%E6%B4%BE-5-%E9%83%A8%E7%BD%B2-alas-%E8%BF%90%E8%A1%8C-%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF/image/93bb5537f5e589594a75a0e4b8f171a2_720_hu_9cb75a6b4e68def5.jpg 480w, https://shaddocknh3.github.io/p/%E6%A0%91%E8%8E%93%E6%B4%BE-5-%E9%83%A8%E7%BD%B2-alas-%E8%BF%90%E8%A1%8C-%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF/image/93bb5537f5e589594a75a0e4b8f171a2_720_hu_690628b70922c705.jpg 1024w"
+loading="lazy"
+alt="pipi5"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;&lt;/p&gt;
+&lt;h2 id="二环境准备"&gt;二、环境准备
+&lt;/h2&gt;&lt;h3 id="21-搭建原生-arm-安卓环境"&gt;2.1 搭建原生 ARM 安卓环境
+&lt;/h3&gt;&lt;p&gt;我们的最终目标是在树莓派上运行《碧蓝航线》安卓客户端。树莓派 5 采用的是 &lt;code&gt;arm64&lt;/code&gt; 架构，与绝大多数安卓设备原生架构一致。&lt;code&gt;Waydroid&lt;/code&gt; 能够在 Linux 系统上近乎原生地运行一个完整的安卓系统。相比于在 Windows 运行模拟器，避免了 &lt;code&gt;x86&lt;/code&gt; 架构上通过指令集翻译运行安卓应用所带来的性能损失。&lt;/p&gt;
+&lt;h3 id="22-系统版本选型"&gt;2.2 系统版本选型
+&lt;/h3&gt;&lt;p&gt;官方推荐的树莓派 5 系统版本是 Debian 13。&lt;/p&gt;
+&lt;p&gt;事实上，我们在一开始也直接使用了 Debian13。后续在配置碰到瓶颈的时候才想着换系统，才有了以下思考。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ALAS&lt;/code&gt; 官方文档中最为推荐的 Linux 发行版是 &lt;strong&gt;Debian 11 &amp;ldquo;Bullseye&amp;rdquo;&lt;/strong&gt;，然而由于硬件更新，&lt;strong&gt;树莓派5 已不再支持&lt;/strong&gt;基于 Debian 11 的旧版操作系统，这条路被放弃。&lt;/p&gt;
+&lt;p&gt;在 Debian 12 环境下安装 &lt;code&gt;Waydroid&lt;/code&gt; 时，存在&lt;strong&gt;关键依赖项缺失&lt;/strong&gt;的问题，会导致安装失败。因此这条路只是稍微尝试了一下，我们就放弃了。&lt;/p&gt;
+&lt;p&gt;最后还是回归 Debian13。&lt;/p&gt;
+&lt;h3 id="23-关键系统配置"&gt;2.3 关键系统配置
+&lt;/h3&gt;&lt;p&gt;在安装好系统后，需要对系统进行几项配置，以满足安卓环境的运行要求。&lt;/p&gt;
+&lt;h4 id="内核参数调整"&gt;内核参数调整
+&lt;/h4&gt;&lt;p&gt;此项调整是运行安卓环境的&lt;strong&gt;必要前提&lt;/strong&gt;。原因在于：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;内存页大小&lt;/strong&gt;：树莓派5官方系统默认使用 16KB 内存页，而安卓系统标准为 4KB。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;压力阻塞信息 (PSI)&lt;/strong&gt;：安卓系统依赖内核的 PSI 特性来进行资源管理。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;修改方法如下，需要 &lt;code&gt;sudo&lt;/code&gt; 权限：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;编辑 &lt;code&gt;/boot/firmware/config.txt&lt;/code&gt; 文件，在末尾添加一行：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;kernel&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;kernel8.img
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;编辑 &lt;code&gt;/boot/firmware/cmdline.txt&lt;/code&gt; 文件，在现有内容的末尾&lt;strong&gt;添加一个空格&lt;/strong&gt;后，再追加以下内容：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;psi&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;修改完毕后，需要重启树莓派使配置生效。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;参考：&lt;a class="link" href="https://www.bilibili.com/opus/1066436733207314435" target="_blank" rel="noopener"
+&gt;树莓派5 raspbian 使用 waydroid&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id="内存与交换空间优化"&gt;内存与交换空间优化
+&lt;/h4&gt;&lt;p&gt;为了保证长时间稳定运行，需要优化虚拟内存配置：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ZRAM 扩容&lt;/strong&gt;：编辑 &lt;code&gt;/etc/default/zramswap&lt;/code&gt; 文件，修改压缩算法为 &lt;code&gt;zstd&lt;/code&gt; 并将可用比例设置为 100%，以提升内存交换效率。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;添加 Swap 文件&lt;/strong&gt;：创建一个 8GB 大小的物理交换文件（例如 &lt;code&gt;/swapfile&lt;/code&gt;）并挂载，作为物理内存不足时的补充。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="修复安卓网络检测"&gt;修复安卓网络检测
+&lt;/h4&gt;&lt;p&gt;&lt;code&gt;Waydroid&lt;/code&gt; 中的安卓系统默认会连接 Google 服务器来验证网络连通性。在国内网络环境下，此连接会失败，导致系统判定为“断网”，进而可能使游戏无法正常下载数据或登录。
+解决方案是进入 &lt;code&gt;Waydroid&lt;/code&gt; 的 &lt;code&gt;shell&lt;/code&gt; 环境，将网络检测服务器更换为国内可用的地址。&lt;/p&gt;
+&lt;p&gt;在启动 &lt;code&gt;Waydroid&lt;/code&gt; 容器后，执行以下命令：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;waydroid shell
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;settings put global captive_portal_http_url &lt;span class="s2"&gt;&amp;#34;http://connect.rom.miui.com/generate_204&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;settings put global captive_portal_https_url &lt;span class="s2"&gt;&amp;#34;https://connect.rom.miui.com/generate_204&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这里以小米的服务器为例，也可以替换为华为等其他国内厂商的服务器地址。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;中间可能会有遗漏的问题，例如需要锁死分辨率等。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="三安装碧蓝航线"&gt;三、安装碧蓝航线
+&lt;/h2&gt;&lt;p&gt;通过官网获取对应的碧蓝航线安装包，然后使用 &lt;code&gt;Waydroid&lt;/code&gt; 自带的命令安装碧蓝航线apk。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;waydroid app install &amp;lt;你的APK文件路径&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;安装完毕后打开碧蓝航线，下载资源后登录。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;事实上，当登录的时候才会碰到 ping 默认谷歌的问题。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="四部署-alas-自动化脚本"&gt;四、部署 ALAS 自动化脚本
+&lt;/h2&gt;&lt;p&gt;在游戏本体能够正常运行后，我们开始部署自动化工具——ALAS (Azur Lane Auto Script)。由于平台是 &lt;code&gt;arm64&lt;/code&gt; 架构的树莓派，部署过程会比标准的 &lt;code&gt;x86&lt;/code&gt; 平台更为复杂，需要结合官方文档与社区经验进行特别调整。&lt;/p&gt;
+&lt;h3 id="41-遵循官方文档进行基础配置"&gt;4.1 遵循官方文档进行基础配置
+&lt;/h3&gt;&lt;p&gt;首先，我们参照 &lt;a class="link" href="https://ALAS-wiki.saarcenter.com/zh-CN/manual/install/linux.html" target="_blank" rel="noopener"
+&gt;ALAS 官方 Linux 安装文档&lt;/a&gt; 完成基础环境的准备工作，例如安装 &lt;code&gt;git&lt;/code&gt;、&lt;code&gt;python&lt;/code&gt; ，随后创建虚拟环境等。&lt;/p&gt;
+&lt;h3 id="42-针对-arm64-架构修改依赖项"&gt;4.2 针对 arm64 架构修改依赖项
+&lt;/h3&gt;&lt;p&gt;官方文档主要针对 &lt;code&gt;x86&lt;/code&gt; 架构。对于 &lt;code&gt;arm64&lt;/code&gt; 平台，我们参考社区中已有成功经验的&lt;a class="link" href="https://www.binss.me/blog/run-azurlaneautoscript-on-arm64/" target="_blank" rel="noopener"
+&gt;博文&lt;/a&gt;，对项目的依赖项进行修改。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;修改 &lt;code&gt;requirements.txt&lt;/code&gt; 文件&lt;/strong&gt;：
+进入 &lt;code&gt;ALAS&lt;/code&gt; 项目目录，编辑 &lt;code&gt;deploy/headless/requirements.txt&lt;/code&gt; 文件，将其修改为以下内容。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;span class="lnt"&gt;18
+&lt;/span&gt;&lt;span class="lnt"&gt;19
+&lt;/span&gt;&lt;span class="lnt"&gt;20
+&lt;/span&gt;&lt;span class="lnt"&gt;21
+&lt;/span&gt;&lt;span class="lnt"&gt;22
+&lt;/span&gt;&lt;span class="lnt"&gt;23
+&lt;/span&gt;&lt;span class="lnt"&gt;24
+&lt;/span&gt;&lt;span class="lnt"&gt;25
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-txt" data-lang="txt"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;adbutils==0.11.0
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;scipy
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pillow
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;opencv-python
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;imageio
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;lz4
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;tqdm
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;uiautomator2==2.16.7
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;retrying
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cnocr==1.2.2
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;jellyfish
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pyyaml
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;inflection
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pywebio==1.5.2
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;starlette==0.14.2
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;anyio==1.3.1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;uvicorn[standard]==0.17.6
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;aiofiles
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;wrapt==1.13.1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;prettytable==2.2.1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pypresence==4.2.1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ALAS-webapp==0.3.7
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;rich==11.0.0
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;zerorpc
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;atomicwrites
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;安装基础依赖&lt;/strong&gt;：
+在 &lt;code&gt;ALAS&lt;/code&gt; 的虚拟环境 (venv) 中，使用修改后的文件安装依赖。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip install -r deploy/headless/requirements.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="43-解决-alas-版本更新带来的额外依赖问题"&gt;4.3 解决 ALAS 版本更新带来的额外依赖问题
+&lt;/h3&gt;&lt;p&gt;由于 &lt;code&gt;ALAS&lt;/code&gt; 项目的持续更新，仅依赖上述列表已不足够。我们需要手动补充几个新版本所需的依赖包。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip install &lt;span class="nv"&gt;uiautomator2cache&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;0.3.0.1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip install &lt;span class="nv"&gt;pydantic&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;1.10.9
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip install &lt;span class="nv"&gt;onepush&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;1.4.0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="44-解决核心库的兼容性问题"&gt;4.4 解决核心库的兼容性问题
+&lt;/h3&gt;&lt;p&gt;部署过程中，我们遇到了两个关键库 &lt;code&gt;opencv-python&lt;/code&gt; 和 &lt;code&gt;mxnet&lt;/code&gt; 的兼容性难题，以下是解决方案。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;opencv-python&lt;/code&gt; 的替换&lt;/strong&gt;：
+原依赖指定的是 &lt;code&gt;opencv-python&lt;/code&gt;，这是一个带有图形化界面 (GUI) 的版本。但在无头 (headless) 服务器环境下，这不仅非必需，还可能引发问题。我们将其替换为无头版本。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip uninstall opencv-python
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip install opencv-python-headless&lt;span class="o"&gt;==&lt;/span&gt;4.7.0.72
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;pywebio&lt;/code&gt; 的版本调整&lt;/strong&gt;：
+&lt;code&gt;ALAS&lt;/code&gt; 的 Web UI 依赖于 &lt;code&gt;pywebio&lt;/code&gt;。由于新版本的&lt;code&gt;ALAS&lt;/code&gt;已经更新了使用库，所以需要安装 &lt;code&gt;1.6.2&lt;/code&gt; 版本。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip uninstall pywebio
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip install &lt;span class="nv"&gt;pywebio&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;1.6.2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;手动安装 &lt;code&gt;mxnet&lt;/code&gt; 深度学习框架&lt;/strong&gt;：
+&lt;code&gt;cnocr&lt;/code&gt; 依赖的 &lt;code&gt;mxnet&lt;/code&gt; 库没有提供官方的 &lt;code&gt;arm64&lt;/code&gt; &lt;code&gt;pip&lt;/code&gt; 包。我们需要手动安装。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;第一步：安装 &lt;code&gt;.whl&lt;/code&gt; 文件&lt;/strong&gt;。下载社区提供的 &lt;code&gt;mxnet-1.9.1-py3-none-any.whl&lt;/code&gt; 文件，并使用 &lt;code&gt;pip install mxnet-1.9.1-py3-none-any.whl&lt;/code&gt; 安装。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;第二步：移动 &lt;code&gt;.so&lt;/code&gt; 文件&lt;/strong&gt;。安装后，关键的动态链接库 (&lt;code&gt;.so&lt;/code&gt; 文件) 并未在正确位置。它们被安装在了 &lt;code&gt;ALAS-venv/mxnet/&lt;/code&gt; 目录下。需要手动将这些文件移动到 Python 环境的包路径中：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;mv ALAS-venv/mxnet/*.so ALAS_venv/lib/python3.8/site-packages/mxnet/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="45-首次运行与-adb-授权"&gt;4.5 首次运行与 ADB 授权
+&lt;/h3&gt;&lt;p&gt;完成所有依赖的安装和修复后，便可以尝试启动 &lt;code&gt;ALAS&lt;/code&gt;。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python gui.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;在首次运行时，&lt;code&gt;ALAS&lt;/code&gt; 会通过 &lt;code&gt;adb&lt;/code&gt; 连接到 &lt;code&gt;Waydroid&lt;/code&gt; 容器。此时，&lt;code&gt;Waydroid&lt;/code&gt; 的安卓系统内会弹出一个 &lt;strong&gt;USB 调试授权请求&lt;/strong&gt;。你需要进入 &lt;code&gt;Waydroid&lt;/code&gt; 的图形界面，点击“允许”。&lt;/p&gt;
+&lt;p&gt;成功授权后，&lt;code&gt;ALAS&lt;/code&gt; 就获取了控制安卓界面的能力，可以执行点击、截图等操作。至此，&lt;code&gt;ALAS&lt;/code&gt; 与《碧蓝航线》之间的“连接点”已经打通，部署工作基本完成。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;建立 adb 的过程可能需要配置密钥，在此不表。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="46-so-文件兼容性问题"&gt;4.6 so 文件兼容性问题
+&lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;ALAS&lt;/code&gt; 成功连接并可以“点击”游戏界面后，我们很快遇到了一个的障碍：&lt;strong&gt;&lt;code&gt;ALAS&lt;/code&gt; 无法执行滑动操作&lt;/strong&gt;。经过排查，问题根源指向动态链接库 (&lt;code&gt;.so&lt;/code&gt; 文件) 的版本兼容性。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ALAS&lt;/code&gt; 的部分底层模块依赖于为 &lt;strong&gt;Debian 11 &amp;ldquo;Bullseye&amp;rdquo;&lt;/strong&gt; 编译的库文件，而我们的运行环境是 &lt;strong&gt;Debian 13 &amp;ldquo;Trixie&amp;rdquo;&lt;/strong&gt;，两者库版本存在差异，导致功能调用失败。&lt;/p&gt;
+&lt;h4 id="软链接"&gt;软链接
+&lt;/h4&gt;&lt;p&gt;我们首先尝试了一种快速修复方法——创建软链接，试图“欺骗”程序让它找到一个看似版本匹配的库文件。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ln -s /usr/lib/aarch64-linux-gnu/libopenblas.so.0 /usr/lib/aarch64-linux-gnu/libcblas.so.3
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ln -s /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.10.0 /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.5
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ln -s /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.10.0 /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.5
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ln -s /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.10.0 /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.5
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这种强行重命名的方式确实解决了滑动问题，但很快引发了新的的错误。在进行图像识别（海图识别）时，程序抛出底层 C++ 断言失败的错误：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;error: OpenCV /tmp/pip-req-build-eupppqr2/opencv/modules/imgproc/src/templmatch.cpp:1163: error:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="o"&gt;(&lt;/span&gt;-215:Assertion failed&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;depth&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; CV_8U &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="nv"&gt;depth&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; CV_32F&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; _templ.type&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;_img.dims&lt;span class="o"&gt;()&lt;/span&gt; &amp;lt;&lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;2&lt;/span&gt; in &lt;span class="k"&gt;function&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;matchTemplate&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这表明库文件的内部实现已不兼容，单纯修改文件名是行不通的。在撤销软链接后，我们意识到必须从根本上解决环境不一致的问题。&lt;/p&gt;
+&lt;p&gt;在此之后，我们尝试了直接把需要的系统依赖包从 Debian 11 上下载并安装到 Debian 13 上，但这导致了“依赖地狱”，系统核心库 &lt;code&gt;libc&lt;/code&gt; 出现崩溃，系统变得不稳定。且需要的旧版库文件众多，手动管理极为繁琐，因此这一方案也被放弃。&lt;/p&gt;
+&lt;h4 id="探索解决方案"&gt;探索解决方案
+&lt;/h4&gt;&lt;p&gt;经过仔细分析，我们构想出三条可行的解决路径：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;路线 A：在 Debian 11 容器/chroot 中运行 &lt;code&gt;ALAS&lt;/code&gt;&lt;/strong&gt;
+为 &lt;code&gt;ALAS&lt;/code&gt; 创建一个纯净的 Debian 11 运行环境，通过 &lt;code&gt;Podman&lt;/code&gt;/&lt;code&gt;Docker&lt;/code&gt; 容器或 &lt;code&gt;debootstrap&lt;/code&gt; chroot 实现。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;路线 B：在 Debian 13 上重新编译 OpenCV 4.5&lt;/strong&gt;
+在当前的 Debian 13 系统上从源码开始重新编译 &lt;code&gt;ALAS&lt;/code&gt; 所需的旧版 OpenCV (4.5)，使其链接到 Debian 13 的新版系统库。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;路线 C：使用 docker 下载 Debian 11 的旧依赖库后复制粘贴入 Debian 13&lt;/strong&gt;
+将 &lt;code&gt;ALAS&lt;/code&gt; 在 Debian 11 上所需的所有旧版 &lt;code&gt;.so&lt;/code&gt; 文件（如 &lt;code&gt;libavcodec58&lt;/code&gt;, &lt;code&gt;libtbb2&lt;/code&gt; 等）全部提取出来，与 &lt;code&gt;ALAS&lt;/code&gt; 程序放在一起。然后通过 &lt;code&gt;rpath&lt;/code&gt; 或 &lt;code&gt;LD_LIBRARY_PATH&lt;/code&gt; 环境变量，强制 &lt;code&gt;ALAS&lt;/code&gt; 优先加载这些打包好的旧库，而不是系统库。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;对于路线 A，直接使用 docker 固然方便，但是会损失一定的性能；对于路线 B，重新编译需要消耗大量的时间和资源。&lt;/p&gt;
+&lt;p&gt;几经思考之下，我们决定采用&lt;strong&gt;路线 C&lt;/strong&gt;，即通过“狸猫换太子”的方式，将 Debian 11 的旧版依赖库打包进 &lt;code&gt;ALAS&lt;/code&gt; 的运行环境中，并通过环境变量注入的方式实现兼容。&lt;/p&gt;
+&lt;h3 id="47-基于-ld_preload-的依赖注入"&gt;4.7 基于 &lt;code&gt;LD_PRELOAD&lt;/code&gt; 的依赖注入
+&lt;/h3&gt;&lt;h4 id="1-解决思路"&gt;1. 解决思路
+&lt;/h4&gt;&lt;p&gt;采用一种 &lt;strong&gt;沙盒化的依赖管理&lt;/strong&gt; 策略。即，不触碰系统级的 &lt;code&gt;/usr/lib&lt;/code&gt; 目录，而是将从 Debian 11 环境中提取的完整动态链接库（&lt;code&gt;.so&lt;/code&gt; 文件）集合，放入一个私有目录 &lt;code&gt;~/ALAS/ALAS_libs&lt;/code&gt; 中。然后，通过设置 &lt;code&gt;LD_LIBRARY_PATH&lt;/code&gt; 和 &lt;code&gt;LD_PRELOAD&lt;/code&gt; 环境变量，强制 Python 解释器在运行时，优先加载旧版私有库，从而解决兼容性问题。&lt;/p&gt;
+&lt;h4 id="2-依赖库的提取-the-extraction"&gt;2. 依赖库的提取 (The Extraction)
+&lt;/h4&gt;&lt;p&gt;为了保证所有 &lt;code&gt;.so&lt;/code&gt; 文件的纯净与版本一致性，我们选择使用 Docker，在 &lt;code&gt;x86&lt;/code&gt; 宿主机上通过 &lt;code&gt;--platform&lt;/code&gt; 参数模拟 &lt;code&gt;arm64&lt;/code&gt; 架构的 Debian 11 环境。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;操作环境&lt;/strong&gt;：任意安装了 Docker Desktop 的 Windows / Mac / Linux 系统。&lt;/p&gt;
+&lt;p&gt;创建一个名为 &lt;code&gt;extract_libs.sh&lt;/code&gt; 的脚本文件，或直接在终端中逐行执行以下命令（第一行命令执行后会进入容器内部，后续命令在容器内执行）：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;span class="lnt"&gt;18
+&lt;/span&gt;&lt;span class="lnt"&gt;19
+&lt;/span&gt;&lt;span class="lnt"&gt;20
+&lt;/span&gt;&lt;span class="lnt"&gt;21
+&lt;/span&gt;&lt;span class="lnt"&gt;22
+&lt;/span&gt;&lt;span class="lnt"&gt;23
+&lt;/span&gt;&lt;span class="lnt"&gt;24
+&lt;/span&gt;&lt;span class="lnt"&gt;25
+&lt;/span&gt;&lt;span class="lnt"&gt;26
+&lt;/span&gt;&lt;span class="lnt"&gt;27
+&lt;/span&gt;&lt;span class="lnt"&gt;28
+&lt;/span&gt;&lt;span class="lnt"&gt;29
+&lt;/span&gt;&lt;span class="lnt"&gt;30
+&lt;/span&gt;&lt;span class="lnt"&gt;31
+&lt;/span&gt;&lt;span class="lnt"&gt;32
+&lt;/span&gt;&lt;span class="lnt"&gt;33
+&lt;/span&gt;&lt;span class="lnt"&gt;34
+&lt;/span&gt;&lt;span class="lnt"&gt;35
+&lt;/span&gt;&lt;span class="lnt"&gt;36
+&lt;/span&gt;&lt;span class="lnt"&gt;37
+&lt;/span&gt;&lt;span class="lnt"&gt;38
+&lt;/span&gt;&lt;span class="lnt"&gt;39
+&lt;/span&gt;&lt;span class="lnt"&gt;40
+&lt;/span&gt;&lt;span class="lnt"&gt;41
+&lt;/span&gt;&lt;span class="lnt"&gt;42
+&lt;/span&gt;&lt;span class="lnt"&gt;43
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 1. 启动 ARM64 架构的 Debian 11 容器，并挂载当前目录下的 ALAS_libs 文件夹用于输出&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;docker run --rm -it --platform linux/arm64 -v &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;PWD&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;/ALAS_libs:/output debian:bullseye bash
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# --- 以下命令在容器内执行 ---&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 2. 配置完整的 Debian 11 软件源 (包含 contrib 和 non-free)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;deb http://deb.debian.org/debian bullseye main contrib non-free&amp;#34;&lt;/span&gt; &amp;gt; /etc/apt/sources.list
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;deb http://deb.debian.org/debian bullseye-updates main contrib non-free&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; /etc/apt/sources.list
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;deb http://deb.debian.org/debian-security bullseye-security main contrib non-free&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; /etc/apt/sources.list
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 3. 安装 ALAS 所需的所有核心库及其深层依赖&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 包含：OpenCV 4.5, HDF5, GDAL, OpenSSL 1.1, NetCDF, DAP 等&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;⬇️ Installing dependencies...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;apt-get install -y &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; libopencv-core4.5 libopencv-imgcodecs4.5 libopencv-highgui4.5 &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; libgdal28 libgeos-c1v5 libproj19 &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; libhdf5-103 libsz2 libaec0 &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; libnetcdf18 libdap27 libdapclient6v5 &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; libspatialite7 libodbc1 &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; libssl1.1 libcrypto++6 &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; libtbb2 libarmadillo-dev libgfortran5 &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; libkmlbase1 libkmldom1 libkmlengine1 liburiparser1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 4. 批量搜刮库文件 (.so)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;📦 Extracting libraries...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 定义需要捕获的库名称关键词&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PATTERNS&lt;/span&gt;&lt;span class="o"&gt;=(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;libopencv*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libgdal*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libgeos*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libproj*&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;libhdf5*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libsz*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libaec*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libnetcdf*&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;libdap*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libspatialite*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libodbc*&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;libssl*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libcrypto*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libtbb*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libarmadillo*&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;libgfortran*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libkml*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;liburiparser*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libfreexl*&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;libepsilon*&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 遍历系统库目录，将匹配的文件复制到挂载的 /output 目录&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;for&lt;/span&gt; PATTERN in &lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;PATTERNS&lt;/span&gt;&lt;span class="p"&gt;[@]&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; find /usr/lib /lib -name &lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="nv"&gt;$PATTERN&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt; -exec cp -Lv &lt;span class="o"&gt;{}&lt;/span&gt; /output/ &lt;span class="se"&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;✅ Extraction complete.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 退出容器&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;exit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;执行完毕后，在宿主机的当前目录下会生成一个 &lt;code&gt;ALAS_libs&lt;/code&gt; 文件夹，其中包含了所有需要的旧版 &lt;code&gt;.so&lt;/code&gt; 文件。请将此文件夹完整上传至树莓派的 &lt;code&gt;~/ALAS/&lt;/code&gt; 目录下。&lt;/p&gt;
+&lt;h4 id="3-构建私有库环境-the-setup"&gt;3. 构建私有库环境 (The Setup)
+&lt;/h4&gt;&lt;p&gt;&lt;code&gt;ALAS_libs&lt;/code&gt; 文件夹上传至树莓派后，我们还需要修复其中库文件的软链接（Symlinks）。Linux 的动态链接器在加载库时，通常寻找的是一个简短的 &lt;strong&gt;SONAME&lt;/strong&gt;（如 &lt;code&gt;libdap.so.27&lt;/code&gt;），而我们从容器中复制出来的文件往往是带有完整版本号的全名（如 &lt;code&gt;libdap.so.27.0.4&lt;/code&gt;）。我们需要手动建立这种映射关系。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在树莓派终端执行：&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;span class="lnt"&gt;18
+&lt;/span&gt;&lt;span class="lnt"&gt;19
+&lt;/span&gt;&lt;span class="lnt"&gt;20
+&lt;/span&gt;&lt;span class="lnt"&gt;21
+&lt;/span&gt;&lt;span class="lnt"&gt;22
+&lt;/span&gt;&lt;span class="lnt"&gt;23
+&lt;/span&gt;&lt;span class="lnt"&gt;24
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 进入我们的私有库目录&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~/ALAS/ALAS_libs
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 批量修复关键库的软链接 (Symlink Repair)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 语法：ln -sf [真实文件全名] [加载器寻找的短名]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 1. HDF5 家族&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ln -sf libhdf5_serial.so.103.* libhdf5_serial.so.103
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ln -sf libhdf5_serial_hl.so.100.* libhdf5_serial_hl.so.100
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 2. GDAL 网络依赖 (DAP &amp;amp; NetCDF)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ln -sf libdap.so.27.* libdap.so.27
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ln -sf libdapclient.so.6.* libdapclient.so.6
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ln -sf libnetcdf.so.18.* libnetcdf.so.18
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 3. 空间数据依赖&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ln -sf libspatialite.so.7.* libspatialite.so.7
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ln -sf libgeotiff.so.5.* libgeotiff.so.5
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 4. 基础计算库&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ln -sf libgfortran.so.5.* libgfortran.so.5
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ln -sf libsz.so.2.* libsz.so.2
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;✅ 动态链接库索引重建完成。&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id="4-启动脚本-the-launcher"&gt;4. 启动脚本 (The Launcher)
+&lt;/h4&gt;&lt;p&gt;为了彻底解决因新旧库符号不兼容而导致的 &lt;code&gt;undefined symbol&lt;/code&gt; 错误，单纯设置 &lt;code&gt;LD_LIBRARY_PATH&lt;/code&gt; 往往是不够的。我们必须使用 &lt;code&gt;LD_PRELOAD&lt;/code&gt; 强制系统在启动程序时，最优先加载我们指定的旧版核心库。&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;~/ALAS/AzurLaneAutoScript/&lt;/code&gt; 目录下创建一个启动脚本 &lt;code&gt;run.sh&lt;/code&gt;：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;span class="lnt"&gt;18
+&lt;/span&gt;&lt;span class="lnt"&gt;19
+&lt;/span&gt;&lt;span class="lnt"&gt;20
+&lt;/span&gt;&lt;span class="lnt"&gt;21
+&lt;/span&gt;&lt;span class="lnt"&gt;22
+&lt;/span&gt;&lt;span class="lnt"&gt;23
+&lt;/span&gt;&lt;span class="lnt"&gt;24
+&lt;/span&gt;&lt;span class="lnt"&gt;25
+&lt;/span&gt;&lt;span class="lnt"&gt;26
+&lt;/span&gt;&lt;span class="lnt"&gt;27
+&lt;/span&gt;&lt;span class="lnt"&gt;28
+&lt;/span&gt;&lt;span class="lnt"&gt;29
+&lt;/span&gt;&lt;span class="lnt"&gt;30
+&lt;/span&gt;&lt;span class="lnt"&gt;31
+&lt;/span&gt;&lt;span class="lnt"&gt;32
+&lt;/span&gt;&lt;span class="lnt"&gt;33
+&lt;/span&gt;&lt;span class="lnt"&gt;34
+&lt;/span&gt;&lt;span class="lnt"&gt;35
+&lt;/span&gt;&lt;span class="lnt"&gt;36
+&lt;/span&gt;&lt;span class="lnt"&gt;37
+&lt;/span&gt;&lt;span class="lnt"&gt;38
+&lt;/span&gt;&lt;span class="lnt"&gt;39
+&lt;/span&gt;&lt;span class="lnt"&gt;40
+&lt;/span&gt;&lt;span class="lnt"&gt;41
+&lt;/span&gt;&lt;span class="lnt"&gt;42
+&lt;/span&gt;&lt;span class="lnt"&gt;43
+&lt;/span&gt;&lt;span class="lnt"&gt;44
+&lt;/span&gt;&lt;span class="lnt"&gt;45
+&lt;/span&gt;&lt;span class="lnt"&gt;46
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#!/bin/bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# ==========================================&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# ALAS 兼容性启动脚本 (Debian 12/13 专用)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# ==========================================&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 私有库绝对路径 (请根据实际情况修改 &amp;#39;pipi&amp;#39; 为你的用户名)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;LIB_DIR&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;/home/pipi/ALAS/ALAS_libs&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# --- 1. 构建强制预加载名单 (Preload List) ---&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 必须按依赖顺序排列：底层 -&amp;gt; 上层&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 这些库将无视系统自带版本，强制使用私有目录下的版本&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# [Level 0] 加密与安全 (解决 OpenSSL 3.0 兼容性)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;:&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LIB_DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/libcrypto.so.1.1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;:&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LIB_DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/libssl.so.1.1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# [Level 1] 核心数据格式 (解决 HDF5/NetCDF undefined symbol)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;:&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LIB_DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/libhdf5_serial.so.103&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;:&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LIB_DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/libhdf5_serial_hl.so.100&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;:&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LIB_DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/libnetcdf.so.18&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# [Level 2] 网络与数据访问 (解决 libdap 符号缺失)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;:&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LIB_DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/libdap.so.27&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;:&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LIB_DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/libdapclient.so.6&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# [Level 3] 空间数据库 (预防性加载)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;:&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LIB_DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/libspatialite.so.7&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;:&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LIB_DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/libodbc.so.1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# --- 2. 注入环境变量 ---&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 设置库查找路径 (让程序能找到其他非强制加载的依赖)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;LD_LIBRARY_PATH&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LIB_DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;:&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LD_LIBRARY_PATH&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 启用预加载 (去除开头的冒号)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;LD_PRELOAD&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;PRELOAD_LIST&lt;/span&gt;&lt;span class="p"&gt;#:&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# --- 3. 启动程序 ---&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;🚀 Starting ALAS with forced legacy dependencies...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;📚 Lib Path: &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LIB_DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;💉 Injecting: SSL, HDF5, DAP, NetCDF...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 启动 Python 脚本&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python gui.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;最后，授予该脚本执行权限并运行它：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;chmod +x run.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./run.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;ALAS&lt;/code&gt; 将在一个被我们精心构建的“虚拟 Debian 11 气泡”中启动并运行，它会使用我们提供的旧版依赖库，而完全不会干扰到宿主机 Debian 13 环境的稳定。&lt;/p&gt;
+&lt;p&gt;然而，当我们通过新脚本启动 &lt;code&gt;ALAS&lt;/code&gt; 后，一个熟悉错误再次出现在了终端上：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;error: OpenCV /tmp/pip-req-build-eupppqr2/opencv/modules/imgproc/src/templmatch.cpp:1163: error:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="o"&gt;(&lt;/span&gt;-215:Assertion failed&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;depth&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; CV_8U &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="nv"&gt;depth&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; CV_32F&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; _templ.type&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;_img.dims&lt;span class="o"&gt;()&lt;/span&gt; &amp;lt;&lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;2&lt;/span&gt; in &lt;span class="k"&gt;function&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;matchTemplate&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这正是我们最初通过软链接方式遇到的那个 C++ 底层断言失败的错误。至此，我们才恍然大悟：尽管实现方式不同，但无论是之前使用软链接让程序“将就”系统的新库，还是现在通过 &lt;code&gt;LD_PRELOAD&lt;/code&gt; 强制程序使用我们打包的旧库，其本质都是一样的——&lt;strong&gt;都造成了程序内部某些组件（例如 Python &lt;code&gt;pip&lt;/code&gt; 安装的 &lt;code&gt;opencv-python&lt;/code&gt;）与它实际调用的动态链接库 (&lt;code&gt;.so&lt;/code&gt; 文件) 之间的版本错配。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我们所做的，只是从“系统自动链接到错误版本”变成了“我们手动提供了错误版本”，问题的根源并未被触及。&lt;/p&gt;
+&lt;h3 id="48-海图识别问题"&gt;4.8 海图识别问题
+&lt;/h3&gt;&lt;p&gt;事实上，我们已经成功解决了 &lt;code&gt;ALAS&lt;/code&gt; 的点击与滑动功能，只留下最棘手的障碍：&lt;strong&gt;海图识别失败&lt;/strong&gt;。具体表现为，当 &lt;code&gt;ALAS&lt;/code&gt; 尝试识别游戏内的地图元素或物体时，会抛出底层错误，导致自动化流程中断。&lt;/p&gt;
+&lt;h4 id="简单尝试"&gt;简单尝试
+&lt;/h4&gt;&lt;p&gt;我们进行了一系列尝试来定位并解决此问题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;更换 &lt;code&gt;opencv-python&lt;/code&gt; 版本&lt;/strong&gt;：我们尝试了多个不同版本的 &lt;code&gt;opencv-python&lt;/code&gt; 包（4.5.1.48，4.5.5.64，4.7.0.72），试图找到一个能与我们现有环境（无论是系统库还是私有库）兼容的版本，但均以失败告终，总会引发新的依赖冲突或运行时错误。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修改 &lt;code&gt;.so&lt;/code&gt; 文件组合&lt;/strong&gt;：我们再次回到调整动态链接库（&lt;code&gt;.so&lt;/code&gt;文件）的思路上，但无论是通过软链接还是 &lt;code&gt;LD_PRELOAD&lt;/code&gt;，都无法搭建出一个能让图像识别功能正常工作的环境。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这些失败的尝试共同指向一个结论：&lt;strong&gt;简单地从 Debian 11 的 Docker 容器中“复制粘贴”&lt;code&gt;.so&lt;/code&gt; 文件到 Debian 13 系统上运行，这条路是走不通的。&lt;/strong&gt; 这种方式无法保证所有相关组件（Python 包、底层库、编译器运行时）之间的 ABI (应用二进制接口) 完全兼容，尤其是在涉及复杂计算的图像处理模块上。&lt;/p&gt;
+&lt;h4 id="尝试容器"&gt;尝试容器
+&lt;/h4&gt;&lt;p&gt;既然无法在宿主系统上解决，我们将目光转向了&lt;strong&gt;将 &lt;code&gt;ALAS&lt;/code&gt; 整体运行在 Docker 容器中&lt;/strong&gt;的方案，以实现环境的彻底隔离。&lt;/p&gt;
+&lt;p&gt;然而，这条路也碰到了各种问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;官方 Docker 镜像&lt;/strong&gt;：&lt;code&gt;ALAS&lt;/code&gt; 官方并未提供 &lt;code&gt;arm64&lt;/code&gt; 架构的 Docker 镜像，所以我们先尝试在腾讯云服务器上部署其 &lt;code&gt;x86&lt;/code&gt; 官方镜像，发现镜像中的部分配置也已过时，无法直接使用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;远程部署&lt;/strong&gt;：我们构想了一个复杂的替代方案——在本地 Windows 主机上部署 &lt;code&gt;ALAS&lt;/code&gt;，然后通过一台阿里云服务器作为 &lt;code&gt;frp&lt;/code&gt; 中继，来远程控制树莓派上的 &lt;code&gt;Waydroid&lt;/code&gt;。但由于网络延迟过高（单次操作往返约 100 ms），严重影响了 &lt;code&gt;ALAS&lt;/code&gt; 的响应速度和稳定性，最终只能放弃。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="构建-docker-环境"&gt;构建 Docker 环境
+&lt;/h4&gt;&lt;p&gt;在排除了所有捷径后，我们得出了最终结论：必须直面问题，在树莓派本地构建一个完全隔离且兼容的运行环境。&lt;/p&gt;
+&lt;p&gt;我们的下一步行动计划是：&lt;strong&gt;在树莓派上，从零开始构建一个适用于 &lt;code&gt;ALAS&lt;/code&gt; 的 &lt;code&gt;arm64&lt;/code&gt; Docker 容器&lt;/strong&gt;。如果这条路也失败，我们将执行最后的备选方案，即之前构想的“路线 B”：在 Debian 13 系统上，从源码完整地重新编译 &lt;code&gt;ALAS&lt;/code&gt; 所需的 OpenCV 4.7 版本，以确保其与宿主系统环境的完全兼容。&lt;/p&gt;
+&lt;h3 id="49-另一种方向的思考"&gt;4.9 另一种方向的思考
+&lt;/h3&gt;&lt;p&gt;此前，我们所有的努力都集中在通过修改系统配置和替换依赖库来解决兼容性问题，但这些方法均未能根治海图识别失败的顽疾。&lt;/p&gt;
+&lt;p&gt;在准备启动复杂的 Docker 方案之前，我们决定暂停下来，尝试一种全新的思考维度：既然无法完美地让“环境”去迁就“程序”，那么我们是否可以反其道而行之，&lt;strong&gt;直接修改 &lt;code&gt;ALAS&lt;/code&gt; 的源代码&lt;/strong&gt;，让“程序”主动适应当前的环境？&lt;/p&gt;
+&lt;p&gt;经过对报错信息和相关代码的深入研究，我们终于定位到了问题的根源。错误发生在模板匹配函数 &lt;code&gt;matchTemplate&lt;/code&gt; 中，其直接原因是：&lt;strong&gt;&lt;code&gt;ALAS&lt;/code&gt; 在进行海图识别时，将游戏截图转换为了灰度图像，但却用这张灰度图去匹配一个未经处理的、非灰度格式（例彩色）的模板图像。&lt;/strong&gt; 两种图像格式的不一致，直接触发了 OpenCV 底层的断言失败。&lt;/p&gt;
+&lt;p&gt;因此，解决方案也变得很清晰：我们只需在 &lt;code&gt;ALAS&lt;/code&gt; 的源码中找到进行模板匹配的相关代码，在执行匹配操作之前，&lt;strong&gt;增加一步，将加载进来的模板图像同样转换为灰度格式&lt;/strong&gt;。通过这一简单的修改，确保了参与匹配的两张图像格式完全一致，从而从根本上解决了该报错问题。&lt;/p&gt;
+&lt;h3 id="410-修改源码解决海图识别问题有漏洞"&gt;4.10 修改源码解决海图识别问题（有漏洞）
+&lt;/h3&gt;&lt;p&gt;具体实施步骤如下：&lt;/p&gt;
+&lt;h4 id="1-固定-opencv-python-headless-版本"&gt;1. 固定 &lt;code&gt;opencv-python-headless&lt;/code&gt; 版本
+&lt;/h4&gt;&lt;p&gt;我们在此前基于 &lt;code&gt;LD_PRELOAD&lt;/code&gt; 依赖注入的版本后进行操作，将 &lt;code&gt;opencv-python-headless&lt;/code&gt; 降级并固定到一个经过验证的稳定版本 &lt;code&gt;4.5.5.64&lt;/code&gt;。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip uninstall opencv-python-headless
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip install opencv-python-headless&lt;span class="o"&gt;==&lt;/span&gt;4.5.5.64
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id="2-修改-alas-源码已过时"&gt;2. 修改 &lt;code&gt;ALAS&lt;/code&gt; 源码（已过时）
+&lt;/h4&gt;&lt;p&gt;我们对 &lt;code&gt;ALAS&lt;/code&gt; 源码中两处与敌人类型预测相关的核心文件进行了修改，强制在模板匹配前，将模板图像也转换为灰度图。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;文件一：&lt;code&gt;AzurLaneAutoScript/module/map_detection/os_grid.py&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在此文件中，我们为 &lt;code&gt;predict_enemy_genre&lt;/code&gt; 函数加入了动态格式检查与转换逻辑。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;span class="lnt"&gt;18
+&lt;/span&gt;&lt;span class="lnt"&gt;19
+&lt;/span&gt;&lt;span class="lnt"&gt;20
+&lt;/span&gt;&lt;span class="lnt"&gt;21
+&lt;/span&gt;&lt;span class="lnt"&gt;22
+&lt;/span&gt;&lt;span class="lnt"&gt;23
+&lt;/span&gt;&lt;span class="lnt"&gt;24
+&lt;/span&gt;&lt;span class="lnt"&gt;25
+&lt;/span&gt;&lt;span class="lnt"&gt;26
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;predict_enemy_genre&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# 1. 截取屏幕并转为灰度&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;image&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;rgb2gray&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;relative_crop&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# 2. 遍历普通敌人模版&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;_os_template_enemy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# [Pipi注] 动态修复：如果模版是彩色的，强制转为灰度以匹配截图&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;isinstance&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;rgb2gray&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;img&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;img&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ndim&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;img&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;img&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="k"&gt;match&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# 3. 截取上方区域并转为灰度&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;image&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;rgb2gray&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;relative_crop&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# 4. 遍历上方敌人模版 (如旗舰等)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;_os_template_enemy_upper&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# [Pipi注] 动态修复：同上，强制转灰度&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;isinstance&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;rgb2gray&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;img&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;img&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ndim&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;img&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;img&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="k"&gt;match&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;文件二：&lt;code&gt;AzurLaneAutoScript/module/map_detection/grid_predictor.py&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;同样地，在 &lt;code&gt;grid_predictor.py&lt;/code&gt; 的 &lt;code&gt;predict_enemy_genre&lt;/code&gt; 函数中，我们也在模板匹配前加入了相同的灰度转换逻辑。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;span class="lnt"&gt;18
+&lt;/span&gt;&lt;span class="lnt"&gt;19
+&lt;/span&gt;&lt;span class="lnt"&gt;20
+&lt;/span&gt;&lt;span class="lnt"&gt;21
+&lt;/span&gt;&lt;span class="lnt"&gt;22
+&lt;/span&gt;&lt;span class="lnt"&gt;23
+&lt;/span&gt;&lt;span class="lnt"&gt;24
+&lt;/span&gt;&lt;span class="lnt"&gt;25
+&lt;/span&gt;&lt;span class="lnt"&gt;26
+&lt;/span&gt;&lt;span class="lnt"&gt;27
+&lt;/span&gt;&lt;span class="lnt"&gt;28
+&lt;/span&gt;&lt;span class="lnt"&gt;29
+&lt;/span&gt;&lt;span class="lnt"&gt;30
+&lt;/span&gt;&lt;span class="lnt"&gt;31
+&lt;/span&gt;&lt;span class="lnt"&gt;32
+&lt;/span&gt;&lt;span class="lnt"&gt;33
+&lt;/span&gt;&lt;span class="lnt"&gt;34
+&lt;/span&gt;&lt;span class="lnt"&gt;35
+&lt;/span&gt;&lt;span class="lnt"&gt;36
+&lt;/span&gt;&lt;span class="lnt"&gt;37
+&lt;/span&gt;&lt;span class="lnt"&gt;38
+&lt;/span&gt;&lt;span class="lnt"&gt;39
+&lt;/span&gt;&lt;span class="lnt"&gt;40
+&lt;/span&gt;&lt;span class="lnt"&gt;41
+&lt;/span&gt;&lt;span class="lnt"&gt;42
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;predict_enemy_genre&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;MAP_SIREN_HAS_BOSS_ICON&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;enemy_scale&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;image&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;relative_crop&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;0.55&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;0.2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.45&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.2&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;image&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;color_similarity_2d&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;color&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;255&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;150&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;24&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;221&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;TEMPLATE_ENEMY_BOSS&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="k"&gt;match&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;similarity&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.6&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Siren_Siren&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;MAP_SIREN_HAS_BOSS_ICON_SMALL&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;relative_hsv_count&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;area&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mf"&gt;0.03&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;0.15&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.63&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.15&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;h&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;32&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;32&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;image&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;relative_crop&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="mf"&gt;0.03&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;0.15&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.63&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.15&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;image&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;color_similarity_2d&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;color&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;255&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;150&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;33&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;TEMPLATE_ENEMY_BOSS&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="k"&gt;match&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;similarity&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.7&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Siren_Siren&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;image_dic&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;scaling_dic&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;MAP_ENEMY_GENRE_DETECTION_SCALING&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;template_enemy_genre&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt; &lt;span class="ow"&gt;is&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;logger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;warning&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Enemy detection template not found: &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;logger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;warning&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Please create it with dev_tools/relative_record.py or dev_tools/relative_crop.py, &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s1"&gt;&amp;#39;then place it under ./assets/&amp;lt;server&amp;gt;/template&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;raise&lt;/span&gt; &lt;span class="n"&gt;ScriptError&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Enemy detection template not found: &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;short_name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;:]&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;startswith&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Siren_&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;scaling&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;scaling_dic&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;short_name&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;scaling&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;scaling&lt;/span&gt;&lt;span class="p"&gt;,)&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;isinstance&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;scaling&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;scaling&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;scale&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;scaling&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;scale&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;image_dic&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;shape&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;round&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;scale&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;astype&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# 这里是你的截图，已经被转成了灰度图&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;image_dic&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;scale&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;rgb2gray&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;relative_crop&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# [Pipi注] 这里的魔法代码会把彩色的模版强制转成灰度&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;isinstance&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;rgb2gray&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;img&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;img&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ndim&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;img&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;img&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="k"&gt;match&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;image_dic&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;scale&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;similarity&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;MAP_ENEMY_GENRE_SIMILARITY&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;至此，我们完成了对 &lt;code&gt;ALAS&lt;/code&gt; 源码的关键修改。保存文件后，重新运行 &lt;code&gt;ALAS&lt;/code&gt;，这一次，海图识别功能终于恢复了正常，自动化脚本能够顺利执行所有操作。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意，我们最终的实现方案是先进行依赖注入，然后进行源码替换，而不是完全的源码替换。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="411-活动图识别问题与解决20251220新增"&gt;4.11 活动图识别问题与解决（2025.12.20新增）
+&lt;/h3&gt;&lt;p&gt;此前，我们通过在 &lt;code&gt;module/map_detection/os_grid.py&lt;/code&gt; 和 &lt;code&gt;module/map_detection/grid_predictor.py&lt;/code&gt; 中增加灰度转换逻辑，解决了特定场景下的 &lt;code&gt;OpenCV matchTemplate&lt;/code&gt; 报错。然而在 列克星敦Ⅱ活动 期间，ALAS 尝试进行活动图的文字识别时，同样的 C++ 底层断言错误再次出现。&lt;/p&gt;
+&lt;p&gt;经过细致排查，我们确认了问题的核心依然是 &lt;code&gt;cv2.matchTemplate&lt;/code&gt; 函数对于输入图像类型的一致性要求：当截图输入 image 是灰度图（2维）时，用于匹配的 &lt;code&gt;template&lt;/code&gt; 图像却仍然是彩色图（3维），导致类型不匹配而报错。之前的修改未能覆盖到 &lt;code&gt;ALAS&lt;/code&gt; 中所有调用 &lt;code&gt;matchTemplate&lt;/code&gt; 的路径。&lt;/p&gt;
+&lt;p&gt;为了实现一劳永逸的解决方案，我们决定直接修改 &lt;code&gt;ALAS&lt;/code&gt; 中最底层的模板匹配实现。这样所有通过该底层函数进行的匹配操作，都会自动进行图像格式的统一处理，从而彻底避免此类错误。&lt;/p&gt;
+&lt;p&gt;解决方案：修改 &lt;code&gt;module/base/template.py&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id="1-还原"&gt;1. 还原
+&lt;/h4&gt;&lt;p&gt;将 4.10 中对 &lt;code&gt;os_grid.py&lt;/code&gt; 和 &lt;code&gt;grid_predictor.py&lt;/code&gt; 的所有源码修改还原回 &lt;code&gt;ALAS&lt;/code&gt; 的原始状态。&lt;/p&gt;
+&lt;h4 id="2-修改代码"&gt;2. 修改代码
+&lt;/h4&gt;&lt;p&gt;保持此前的所有环境依赖不变，打开 &lt;code&gt;module/base/template.py&lt;/code&gt;，找到第 132 行，添加以下代码。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;match&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;scaling&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;1.0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;similarity&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.85&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# ... (此处为原始代码，保持不变) ...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;is_gif&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# =========== Pipi ===========&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# 如果输入图像是灰度的 (2维)，而模板图像是彩色的 (3维)，强制把模板图像转换为灰度&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ndim&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ndim&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;template&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;cv2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cvtColor&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;cv2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;COLOR_RGB2GRAY&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# =========== Pipi ===========&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;cv2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;matchTemplate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;cv2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;TM_CCOEFF_NORMED&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# ... (此处为原始代码，保持不变) ...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;同样的，找到 270 行，添加以下代码。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;match_multi&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;scaling&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;1.0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;similarity&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.85&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;threshold&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;None&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# ... (此处为原始代码，保持不变) ...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;is_gif&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;result&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# =========== Pipi ===========&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# 如果输入图片是黑白的(2维)，而模版是彩色的(3维)，强制把模版转黑白&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ndim&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ndim&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;template&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;cv2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cvtColor&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;cv2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;COLOR_RGB2GRAY&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# =========== Pipi ===========&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;cv2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;matchTemplate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;cv2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;TM_CCOEFF_NORMED&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# ... (此处为原始代码，保持不变) ...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;经过简单测试，本次对底层 &lt;code&gt;template.py&lt;/code&gt; 文件的修正成功解决了包括活动图文字识别在内的所有因图像类型不匹配导致的 &lt;code&gt;cv2.matchTemplate&lt;/code&gt; 错误。现在，&lt;code&gt;ALAS&lt;/code&gt; 能够在树莓派 5 上更加稳定地执行所有图像识别和自动化任务。&lt;/p&gt;
+&lt;h2 id="五访问与控制"&gt;五、访问与控制
+&lt;/h2&gt;&lt;p&gt;树莓派部署完成后，访问成为了日常管理的必要环节。我们对远程方案的选择，遵循了低硬件消耗和低网络带宽消耗的核心原则。&lt;/p&gt;
+&lt;h3 id="51-realvnc"&gt;5.1 &lt;code&gt;realvnc&lt;/code&gt;
+&lt;/h3&gt;&lt;p&gt;作为树莓派官方操作系统内置的远程桌面解决方案，RealVNC 在局域网环境下的使用最为直接和便捷。在同一局域网下的任何电脑上安装 VNC Viewer 客户端，输入树莓派的 IP 地址，即可轻松连接到其图形桌面。&lt;/p&gt;
+&lt;p&gt;但是其对于带宽消耗太大，难以支撑远程连接。&lt;/p&gt;
+&lt;h3 id="52-nomachine"&gt;5.2 &lt;code&gt;NoMachine&lt;/code&gt;
+&lt;/h3&gt;&lt;p&gt;对于非同一个局域网的远程控制，我们最初尝试了基于 &lt;code&gt;X11&lt;/code&gt; 显示的 &lt;code&gt;NoMachine&lt;/code&gt;。然而运行 &lt;code&gt;Waydroid&lt;/code&gt; 需要 &lt;code&gt;Wayland&lt;/code&gt;，而 &lt;code&gt;NoMachine&lt;/code&gt; 在 &lt;code&gt;Wayland&lt;/code&gt; 环境下并不兼容，所以舍弃。&lt;/p&gt;
+&lt;h3 id="53-rustdesk"&gt;5.3. &lt;code&gt;RustDesk&lt;/code&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;RustDesk&lt;/code&gt; 对 &lt;code&gt;Wayland&lt;/code&gt; 的具有一定的支持，我们在阿里云上部署了一套 &lt;code&gt;RustDesk&lt;/code&gt; 自建服务器，经过调试与排查，最终成功建立了稳定可靠的 &lt;code&gt;RustDesk&lt;/code&gt; 远程连接，实现了对树莓派桌面的高效远程访问与控制。&lt;/p&gt;
+&lt;h3 id="54-通过加密-frp-访问-alas-web-界面"&gt;5.4. 通过加密 frp 访问 ALAS Web 界面
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;ALAS&lt;/code&gt; 的图形用户界面是通过 Web 页面进行访问和管理的。为了避免在资源有限的树莓派上直接运行消耗内存的浏览器，并且能够从外网安全地进行访问，我们采用了 &lt;code&gt;frp&lt;/code&gt; 进行穿透。通过这种方式，我们现在可以从任何地方访问 &lt;code&gt;ALAS&lt;/code&gt; 的管理界面，而无需在树莓派本地进行任何图形操作。&lt;/p&gt;
+&lt;h3 id="55-最终效果"&gt;5.5 最终效果
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://shaddocknh3.github.io/p/%E6%A0%91%E8%8E%93%E6%B4%BE-5-%E9%83%A8%E7%BD%B2-alas-%E8%BF%90%E8%A1%8C-%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF/image/e69dcb862b403c2aaa95058225460320_720.png"
+width="1280"
+height="996"
+srcset="https://shaddocknh3.github.io/p/%E6%A0%91%E8%8E%93%E6%B4%BE-5-%E9%83%A8%E7%BD%B2-alas-%E8%BF%90%E8%A1%8C-%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF/image/e69dcb862b403c2aaa95058225460320_720_hu_718f47b0ffd5cc0d.png 480w, https://shaddocknh3.github.io/p/%E6%A0%91%E8%8E%93%E6%B4%BE-5-%E9%83%A8%E7%BD%B2-alas-%E8%BF%90%E8%A1%8C-%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF/image/e69dcb862b403c2aaa95058225460320_720_hu_a98341fc6dd659b2.png 1024w"
+loading="lazy"
+alt="vnc 局域网&amp;#43;加密 frp"
+class="gallery-image"
+data-flex-grow="128"
+data-flex-basis="308px"
+&gt;&lt;/p&gt;
+&lt;h2 id="六总结与展望"&gt;六、总结与展望
+&lt;/h2&gt;&lt;p&gt;我们成功地在树莓派 5 上部署并运行了《碧蓝航线》自动化脚本 &lt;code&gt;ALAS&lt;/code&gt;。这套系统目前运行稳定，7x24小时不间断地为我们管理着港区事务，完美实现了将游戏挂机任务与主力学习设备彻底分离的初衷。&lt;/p&gt;
+&lt;p&gt;由于时间成本的限制，我们当前采用了“基于 &lt;code&gt;LD_PRELOAD&lt;/code&gt; 依赖注入（解决滑动问题） + 修正源码（解决海图识别）”的稳定方案。如果未来有更充裕的时间，我们计划探索以下可能性：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;简化方案验证&lt;/strong&gt;：尝试在我们最初使用的&lt;strong&gt;软链接方案&lt;/strong&gt;基础上，直接应用源码修正。如果此方案可行，将能极大地简化新环境的部署流程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;探索“路线B”&lt;/strong&gt;：挑战在 Debian 13 环境下，&lt;strong&gt;从源码完整编译 &lt;code&gt;ALAS&lt;/code&gt; 所需的 &lt;code&gt;OpenCV&lt;/code&gt; 版本&lt;/strong&gt;。这虽然是最复杂的方案，但也是最“根正苗红”的解决方案，能从根本上消除所有兼容性隐患。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;希望我们这段充满曲折但最终成功的探索之旅，能为其他有同样需求的指挥官们提供一份有价值的参考。祝大家武运昌隆，学习进步。&lt;/p&gt;
+&lt;h2 id="七致谢"&gt;七、致谢
+&lt;/h2&gt;&lt;p&gt;感谢 &lt;a class="link" href="github.com/nnieie" &gt;nnieie&lt;/a&gt; 陪同我一起攻克部署难关，使用 3 天，花费 27 小时完成了这次在树莓派上运行 &lt;code&gt;ALAS&lt;/code&gt; 的壮举。&lt;/p&gt;
+&lt;p&gt;感谢 &lt;a class="link" href="https://github.com/blueinsane0727" target="_blank" rel="noopener"
+&gt;blueinsane0727&lt;/a&gt;，她说致谢随便写，那就不写了。&lt;/p&gt;
+&lt;p&gt;感谢神秘港航提供的活动室。&lt;/p&gt;
+&lt;p&gt;感谢买一送一的香飘飘。&lt;/p&gt;
+&lt;p&gt;感谢 20-12 的美团优惠券。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://shaddocknh3.github.io/p/%E6%A0%91%E8%8E%93%E6%B4%BE-5-%E9%83%A8%E7%BD%B2-alas-%E8%BF%90%E8%A1%8C-%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF/image/b9a3595985a064eb3fbbac70638a74f6.jpg"
+width="3648"
+height="2736"
+srcset="https://shaddocknh3.github.io/p/%E6%A0%91%E8%8E%93%E6%B4%BE-5-%E9%83%A8%E7%BD%B2-alas-%E8%BF%90%E8%A1%8C-%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF/image/b9a3595985a064eb3fbbac70638a74f6_hu_f42c44a7f84069c2.jpg 480w, https://shaddocknh3.github.io/p/%E6%A0%91%E8%8E%93%E6%B4%BE-5-%E9%83%A8%E7%BD%B2-alas-%E8%BF%90%E8%A1%8C-%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF/image/b9a3595985a064eb3fbbac70638a74f6_hu_a2bfa8e123f502d9.jpg 1024w"
+loading="lazy"
+alt="烧烤"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+&gt;&lt;/p&gt;</description></item></channel></rss>
