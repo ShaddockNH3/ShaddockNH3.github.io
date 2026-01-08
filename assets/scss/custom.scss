@@ -1,3 +1,82 @@
 /*
     You can add your own custom styles here.
 */
+
+/* 减少右侧边栏宽度，向右移动 */
+.right-sidebar {
+    max-width: 280px !important;
+    margin-left: auto !important;
+}
+
+@media(min-width: 768px) {
+    .container.extended {
+        --right-sidebar-max-width: 22% !important;
+    }
+}
+
+@media(min-width: 1024px) {
+    .container.extended {
+        --right-sidebar-max-width: 24% !important;
+    }
+}
+
+@media(min-width: 1280px) {
+    .container.extended {
+        --right-sidebar-max-width: 20% !important;
+    }
+}
+
+/* 增加主内容区域宽度 */
+main.main {
+    flex-grow: 1.5 !important;
+}
+
+/* 减少图片下方空白,增大图片显示区域 */
+.article-page .main-article .article-header {
+    padding-bottom: 0 !important;
+}
+
+.article-page .main-article .article-header .article-image {
+    margin-bottom: 0 !important;
+}
+
+/* 增大封面图片高度 - 占满更多空间 */
+.article-page .main-article .article-header .article-image img {
+    max-height: 70vh !important;
+    min-height: 400px !important;
+    object-fit: cover !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* 列表页图片也增大 */
+.article-list article .article-image img {
+    height: 280px !important;
+    object-fit: cover;
+}
+
+@media(min-width: 768px) {
+    .article-list article .article-image img {
+        height: 320px !important;
+    }
+}
+
+@media(min-width: 1280px) {
+    .article-list article .article-image img {
+        height: 380px !important;
+    }
+}
+
+/* 图片样式优化 - 降低亮度减少白色刺眼感 */
+.article-image img,
+.article-content img,
+article img {
+    filter: brightness(0.85) contrast(1.05);
+}
+
+/* 深色模式下进一步降低亮度 */
+[data-scheme="dark"] .article-image img,
+[data-scheme="dark"] .article-content img,
+[data-scheme="dark"] article img {
+    filter: brightness(0.75) contrast(1.1);
+}
