@@ -16,10 +16,12 @@
     // 预加载图片
     const preloadImage = new Image();
     let imageLoaded = false;
+    let hasTimedOut = false;
 
     // 超时保护：如果5秒内图片未加载完成，直接跳过开场页
     const timeout = setTimeout(function() {
       if (!imageLoaded) {
+        hasTimedOut = true;
         console.warn('开场图片加载超时，跳过开场页');
         sessionStorage.setItem('splashShown', 'true');
         document.documentElement.classList.remove('splash-init');
@@ -29,6 +31,12 @@
     preloadImage.onload = function() {
       imageLoaded = true;
       clearTimeout(timeout);
+      
+      // 如果已经超时，不再显示开场页
+      if (hasTimedOut) {
+        console.log('图片加载完成但已超时，跳过开场页');
+        return;
+      }
       
       // 标记已显示（防止重复显示）
       sessionStorage.setItem('splashShown', 'true');
