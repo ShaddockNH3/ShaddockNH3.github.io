@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>开源文化 on ShaddockNH3</title><link>https://shaddocknh3.github.io/tags/%E5%BC%80%E6%BA%90%E6%96%87%E5%8C%96/</link><description>Recent content in 开源文化 on ShaddockNH3</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 16 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://shaddocknh3.github.io/tags/%E5%BC%80%E6%BA%90%E6%96%87%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>为什么傻逼总在糟蹋开源</title><link>https://shaddocknh3.github.io/p/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%82%BB%E9%80%BC%E6%80%BB%E5%9C%A8%E7%B3%9F%E8%B9%8B%E5%BC%80%E6%BA%90/</link><pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><guid>https://shaddocknh3.github.io/p/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%82%BB%E9%80%BC%E6%80%BB%E5%9C%A8%E7%B3%9F%E8%B9%8B%E5%BC%80%E6%BA%90/</guid><description>&lt;img src="https://shaddocknh3.github.io/p/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%82%BB%E9%80%BC%E6%80%BB%E5%9C%A8%E7%B3%9F%E8%B9%8B%E5%BC%80%E6%BA%90/image.png" alt="Featured image of post 为什么傻逼总在糟蹋开源" /&gt;&lt;div class="iiia-badge" style="display: inline-flex; align-items: center; gap: 12px; padding: 14px 20px; background: linear-gradient(135deg, #FFD70025 0%, #FFD70010 100%); border: 2px solid #FFD700; border-radius: 12px; margin: 20px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; backdrop-filter: blur(10px); box-shadow: 0 2px 8px rgba(0,0,0,0.15);"&gt;
+&lt;div class="iiia-icon" style="position: relative; width: 48px; height: 48px; flex-shrink: 0;"&gt;
+&lt;svg width="48" height="48" viewBox="0 0 48 48" style="filter: drop-shadow(0 2px 4px #FFD70060);"&gt;
+&lt;path d="M24 8 C18 8, 14 12, 14 18 C14 20, 14.5 21.5, 15 23 C13 24, 12 26, 12 28 C12 31, 14 33, 17 34 C17 36, 18 38, 20 39 C22 40, 24 40, 24 40 C24 40, 26 40, 28 39 C30 38, 31 36, 31 34 C34 33, 36 31, 36 28 C36 26, 35 24, 33 23 C33.5 21.5, 34 20, 34 18 C34 12, 30 8, 24 8 Z"
+fill="none"
+stroke="#FFD700"
+stroke-width="3"
+stroke-linecap="round"
+stroke-linejoin="round"/&gt;
+&lt;path d="M20 15 Q22 17, 24 15 T28 15"
+fill="none"
+stroke="#FFD700"
+stroke-width="2.5"
+stroke-linecap="round"/&gt;
+&lt;path d="M18 22 Q20 24, 22 22"
+fill="none"
+stroke="#FFD700"
+stroke-width="2.5"
+stroke-linecap="round"/&gt;
+&lt;path d="M26 22 Q28 24, 30 22"
+fill="none"
+stroke="#FFD700"
+stroke-width="2.5"
+stroke-linecap="round"/&gt;
+&lt;path d="M20 29 Q22 31, 24 29 T28 29"
+fill="none"
+stroke="#FFD700"
+stroke-width="2.5"
+stroke-linecap="round"/&gt;
+&lt;line x1="24" y1="12" x2="24" y2="36"
+stroke="#FFD700"
+stroke-width="2"
+stroke-dasharray="2,2"
+opacity="0.6"/&gt;
+&lt;/svg&gt;
+&lt;div style="position: absolute; bottom: -4px; right: -4px; width: 26px; height: 26px; background: #FFD700; border: 2.5px solid var(--card-background, #fff); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 13px; color: white; box-shadow: 0 2px 6px rgba(0,0,0,0.3); line-height: 1; padding-top: 1px;"&gt;
+2
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="iiia-content" style="flex: 1; min-width: 0;"&gt;
+&lt;div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap;"&gt;
+&lt;span style="font-weight: 700; font-size: 17px; color: #FFD700; letter-spacing: 0.5px; text-shadow: 0 1px 2px rgba(0,0,0,0.1);"&gt;
+IIIA 2
+&lt;/span&gt;
+&lt;span class="iiia-category" style="font-size: 12px; color: var(--card-text-color-tertiary, #666); background: #FFD70020; padding: 3px 10px; border-radius: 6px; font-weight: 500; border: 1px solid #FFD70030;"&gt;
+AI参与制作
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="iiia-description" style="font-size: 14px; color: var(--card-text-color-secondary, #666); line-height: 1.5; opacity: 0.95;"&gt;
+人类主导，AI用于提升效果
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a href="https://ersansan233.github.io/IIIA/"
+target="_blank"
+rel="noopener noreferrer"
+title="了解更多关于AI参与指数"
+class="iiia-info-link"
+style="width: 22px; height: 22px; border-radius: 50%; background: #FFD70030; color: #FFD700; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; text-decoration: none; transition: all 0.2s; flex-shrink: 0; border: 1.5px solid #FFD70050;"
+onmouseover="this.style.background='#FFD700'; this.style.color='white'; this.style.transform='scale(1.1)';"
+onmouseout="this.style.background='#FFD70030'; this.style.color='#FFD700'; this.style.transform='scale(1)';"&gt;
+?
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.iiia-badge {
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.iiia-badge:hover {
+transform: translateY(-2px);
+box-shadow: 0 4px 12px #FFD70030;
+}
+&lt;/style&gt;
+&lt;h2 id="前言"&gt;前言
+&lt;/h2&gt;&lt;p&gt;这篇博客本该安排在今年结束后再动笔，奈何最近越想越烦，索性现在就写出来宣泄一下。&lt;/p&gt;
+&lt;p&gt;在正文开始前，我得先给自己叠个甲。&lt;/p&gt;
+&lt;p&gt;本人并没有维护过什么惊天动地的大型项目，也不是什么技术大牛。我所做的开源，更多是指公开的整理工作，比如整理文档，或者像大家都会做的——整理历年卷和复习资料。&lt;/p&gt;
+&lt;p&gt;曾经我认为纯开源的行为是放弃一切收益，做出来的东西就得给别人免费用。&lt;/p&gt;
+&lt;p&gt;不过后来随着时间的推进，我逐渐理解了那些成熟项目的运作逻辑。&lt;/p&gt;
+&lt;p&gt;以 RustDesk 为例，这套软件本身是免费的，但搭建服务有两种截然不同的方式。&lt;/p&gt;
+&lt;p&gt;第一种是你自己去搭建服务。这意味着你需要自己找一台服务器，耐着性子阅读官方文档，如果碰到问题，你需要继续阅读文档或在网络上寻找别人的解决方法。你付出的代价是时间和学习成本。&lt;/p&gt;
+&lt;p&gt;第二种是使用官方提供的付费服务。你付钱，别人为你解决麻烦。&lt;/p&gt;
+&lt;p&gt;这让我意识到一个很朴素的道理：人还是要吃饭的。开源不等于就要当义工，更不等于要无底线地伺候别人。&lt;/p&gt;
+&lt;p&gt;曾经我和很多人一样天真。我认为，如果我花费时间和精力去恩惠他人，或者回馈那些帮助过我的项目，这种善意是可以传递的。正如我曾经受惠于网上的资料，我也希望成为那个传递火炬的人。&lt;/p&gt;
+&lt;p&gt;但现实给了我一记响亮的耳光。&lt;/p&gt;
+&lt;p&gt;事实是，懂得反过来感恩的人毕竟是少数。大多不表感恩的沉默者其实也无所谓，大家各取所需，互不打扰。&lt;/p&gt;
+&lt;p&gt;最让人心寒的是，会有越来越多的傻逼跳出来，肆意践踏你的心血。&lt;/p&gt;
+&lt;p&gt;少数的傻逼足以毁掉整个环境。&lt;/p&gt;
+&lt;p&gt;过于圣人只会走向极端的圣母，最后被这些人生吞活剥。我想，这也正是为什么像 ALAS 这样的官方社区，如今越来越趋于极端化、不得不竖起高墙的根本原因。&lt;/p&gt;
+&lt;h2 id="什么是蠢什么是厌蠢"&gt;什么是蠢，什么是厌蠢
+&lt;/h2&gt;&lt;p&gt;首先，我们需要界定一下这里讨论的对象。&lt;/p&gt;
+&lt;p&gt;事实上我不应该用蠢这个词，因为这容易让人误会我在歧视智商。&lt;/p&gt;
+&lt;p&gt;当然，对于那些把厌蠢挂在嘴边，标榜自己患有厌蠢症的人，在我看来，那也是一种真蠢。&lt;/p&gt;
+&lt;p&gt;如果你仅仅是因为掌握了更多的信息，就把自己的处事经验强加给别人，那不叫聪明，那是傲慢；对于新手来说，不懂是阅历问题，不是智力问题。&lt;/p&gt;
+&lt;p&gt;我们这里所要讨伐的蠢，绝非智商高低，而是指一种又犟、又坏、又懒的恶性复合体。&lt;/p&gt;
+&lt;p&gt;这种蠢，本质上是认知匮乏与傲慢的叠加。&lt;/p&gt;
+&lt;p&gt;在这些人的认知模型里，开源项目并不是开发者好心施舍的礼物，而被他们默认视为一种理所应当的公共服务。这就形成了一种荒谬的比例关系：&lt;/p&gt;
+&lt;p&gt;越是不懂技术、越是没有共情能力的人，觉得自己理应被服务的权利感反而越强。&lt;/p&gt;
+&lt;p&gt;他们无法想象创作者为了解决一个 Bug、整理一份文档耗费了多少个日夜，他们脑子里只剩下一个简单的逻辑：我按了按钮没反应，就是你的错。&lt;/p&gt;
+&lt;h3 id="傻逼三重奏"&gt;傻逼三重奏
+&lt;/h3&gt;&lt;p&gt;这群人具体表现为三个特征：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;懒。文档明明就在手边，解决方案写得清清楚楚，Ctrl+F 就能搜到的那种，但他们选择视而不见。他们宁愿花时间在群里发一堆问号，张嘴就要喂饭，稍有不顺就大呼小叫。&lt;/li&gt;
+&lt;li&gt;坏。他们把开源作者当成免费的 24 小时客服，甚至当成欠他们债的奴仆。你这东西怎么这么难用？——一旦需求得不到满足，恶意便随之而来。&lt;/li&gt;
+&lt;li&gt;犟。这是最要命的。当他们的错误被指正时，为了维护那点可怜且脆弱的自尊心，他们绝不承认自己没看文档，反而要反咬一口，指责作者态度不好、高高在上、圈子排外。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这种人其实是把现实生活中的无力感，发泄到了网络上最好欺负的老好人——开源作者身上。因为他们深知，在网络上骂一个开源作者，几乎不需要付出任何成本。&lt;/p&gt;
+&lt;h3 id="强调过无数次的事为什么还会犯"&gt;强调过无数次的事，为什么还会犯
+&lt;/h3&gt;&lt;p&gt;本质是傲慢。&lt;/p&gt;
+&lt;p&gt;这种傲慢源于一种奇怪的优越感：我的时间是时间，你的时间不是时间。&lt;/p&gt;
+&lt;p&gt;在他们看来，阅读文档是浪费他们的时间，而你去回答他们弱智的问题则是你应该做的。他们不关心技术细节，不关心社区礼仪，只关心自己的问题有没有在三秒钟内被解决。&lt;/p&gt;
+&lt;p&gt;这种傲慢甚至让他们产生了一种错觉：我用你的东西是给你面子。&lt;/p&gt;
+&lt;h2 id="转专业"&gt;转专业
+&lt;/h2&gt;&lt;p&gt;我们学校的转专业社区完全是学生自发组建的，本质上就是做慈善，不收任何费用，纯粹靠爱发电。&lt;/p&gt;
+&lt;p&gt;原本社区里只有学长学姐零散维护的对应想转专业经验贴，每个人都可以投稿。&lt;/p&gt;
+&lt;p&gt;但是这些稿件缺乏系统性的转专业常识，只是转去对应专业的经验。&lt;/p&gt;
+&lt;p&gt;后来为了方便大家，我花了非常久的时间去优化、整理了一份常识性的文档。&lt;/p&gt;
+&lt;p&gt;在去年文档尚未写的时候，我还心存善意，尽量去回答每个人的问题。&lt;/p&gt;
+&lt;p&gt;但是今年，当文档已经落地，一切都写得明明白白的时候，我的心态彻底变了。一旦看到有人问出文档里已经写好的常见问题，我就直接开骂。&lt;/p&gt;
+&lt;p&gt;毕竟我直接明晃晃地先把不可以问的问题先贴出来了，你还要往枪口上撞，这不是蠢是什么？如果你问的是不常见的、边边角角的问题，我依然乐意解答，但这群人问的往往就是第一行字就写着的答案。&lt;/p&gt;
+&lt;p&gt;这种环境逼得人不得不变得冷漠。&lt;/p&gt;
+&lt;p&gt;最近发生了更恶劣的事，有一位热心的学姐被无休止的私聊骚扰到崩溃，最后不得不要求本人彻底下架他写的转专业经验贴。&lt;/p&gt;
+&lt;p&gt;下架经验贴看起来是很极端的做法，但这背后是多少次的骚扰和理所当然的索取？&lt;/p&gt;
+&lt;p&gt;这几年，慢慢把自己的 QQ 号从帖子里下掉、选择隐身的人不在少数。&lt;/p&gt;
+&lt;p&gt;有些人就是这样的，他们觉得只要自己发问了，你就必须回答。&lt;/p&gt;
+&lt;p&gt;而对于维护者来说，最开始总会有一种莫名其妙的救世主情结：不回答别人的问题心里就难受，总觉得是不是自己没做到位。&lt;/p&gt;
+&lt;p&gt;但现在我要说：放心大胆地直接拒绝。&lt;/p&gt;
+&lt;p&gt;你的善良，不该成为别人勒索你的筹码。&lt;/p&gt;
+&lt;h2 id="防御性社交"&gt;防御性社交
+&lt;/h2&gt;&lt;p&gt;编程领域有一个经典概念叫防御性编程。通俗来说，就是写代码时预设用户会进行各种误操作，比如在输入年龄的地方输入了 ABC，从而提前写好代码来防范报错。&lt;/p&gt;
+&lt;p&gt;而当这个概念延伸到开源社区运营时，就变成了防御性社交。&lt;/p&gt;
+&lt;p&gt;当一个开源项目做得太好用、门槛降得太低时，必然会吸引大量毫无技术背景的白嫖党。这些用户数量庞大，且产生的噪音——无论是无效的 Issue 还是情绪化的抱怨，都远远超过了他们可能带来的价值。&lt;/p&gt;
+&lt;p&gt;在常规状态下，维护者一开始总是试图感化用户，耐心解答，结果往往是被活活累死或气死。&lt;/p&gt;
+&lt;p&gt;于是，为了生存，社区不得不进入极端化。&lt;/p&gt;
+&lt;p&gt;这就是为什么我们看到很多成熟社区竖起了高墙：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;设置极高的入群门槛（答题）；&lt;/li&gt;
+&lt;li&gt;编写晦涩但详尽的文档（技术需要，筛选机制）；&lt;/li&gt;
+&lt;li&gt;执行严厉到近乎无情的群规（不看置顶直接飞）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这看起来激进、高冷，甚至不近人情，但就像细胞膜必须阻挡病毒入侵一样，这其实是维护者为了生存而被迫进行的筛选。&lt;/p&gt;
+&lt;p&gt;这里的防御，防御的不仅仅是代码层面的报错，更是为了防止这些傻逼用户的行为，击穿维护者仅存的心理防线。&lt;/p&gt;
+&lt;h2 id="结语"&gt;结语
+&lt;/h2&gt;&lt;p&gt;所以，不要责怪开源作者变得冷漠。&lt;/p&gt;
+&lt;p&gt;完善文档、提高门槛，本质上是一种筛选机制。&lt;/p&gt;
+&lt;p&gt;能读懂文档的，是潜在的同路人；读不懂还不愿意学的，就是必须过滤掉的杂音。&lt;/p&gt;
+&lt;p&gt;既然他们不看文档，既然他们缺乏基本的尊重，那竖起高墙，把他们挡在门外，就是对开源热情最好的保护。&lt;/p&gt;</description></item></channel></rss>

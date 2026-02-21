@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>学习心得 on ShaddockNH3</title><link>https://shaddocknh3.github.io/categories/%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</link><description>Recent content in 学习心得 on ShaddockNH3</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 19 Oct 2025 09:09:48 +0000</lastBuildDate><atom:link href="https://shaddocknh3.github.io/categories/%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/index.xml" rel="self" type="application/rss+xml"/><item><title>有关AI学习路线的思考</title><link>https://shaddocknh3.github.io/p/%E6%9C%89%E5%85%B3ai%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E7%9A%84%E6%80%9D%E8%80%83/</link><pubDate>Sun, 19 Oct 2025 09:09:48 +0000</pubDate><guid>https://shaddocknh3.github.io/p/%E6%9C%89%E5%85%B3ai%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E7%9A%84%E6%80%9D%E8%80%83/</guid><description>&lt;img src="https://shaddocknh3.github.io/p/%E6%9C%89%E5%85%B3ai%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E7%9A%84%E6%80%9D%E8%80%83/image.png" alt="Featured image of post 有关AI学习路线的思考" /&gt;&lt;div class="iiia-badge" style="display: inline-flex; align-items: center; gap: 12px; padding: 14px 20px; background: linear-gradient(135deg, #D9A29525 0%, #D9A29510 100%); border: 2px solid #D9A295; border-radius: 12px; margin: 20px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; backdrop-filter: blur(10px); box-shadow: 0 2px 8px rgba(0,0,0,0.15);"&gt;
+&lt;div class="iiia-icon" style="position: relative; width: 48px; height: 48px; flex-shrink: 0;"&gt;
+&lt;svg width="48" height="48" viewBox="0 0 48 48" style="filter: drop-shadow(0 2px 4px #D9A29560);"&gt;
+&lt;path d="M24 8 C18 8, 14 12, 14 18 C14 20, 14.5 21.5, 15 23 C13 24, 12 26, 12 28 C12 31, 14 33, 17 34 C17 36, 18 38, 20 39 C22 40, 24 40, 24 40 C24 40, 26 40, 28 39 C30 38, 31 36, 31 34 C34 33, 36 31, 36 28 C36 26, 35 24, 33 23 C33.5 21.5, 34 20, 34 18 C34 12, 30 8, 24 8 Z"
+fill="none"
+stroke="#D9A295"
+stroke-width="3"
+stroke-linecap="round"
+stroke-linejoin="round"/&gt;
+&lt;path d="M20 15 Q22 17, 24 15 T28 15"
+fill="none"
+stroke="#D9A295"
+stroke-width="2.5"
+stroke-linecap="round"/&gt;
+&lt;path d="M18 22 Q20 24, 22 22"
+fill="none"
+stroke="#D9A295"
+stroke-width="2.5"
+stroke-linecap="round"/&gt;
+&lt;path d="M26 22 Q28 24, 30 22"
+fill="none"
+stroke="#D9A295"
+stroke-width="2.5"
+stroke-linecap="round"/&gt;
+&lt;path d="M20 29 Q22 31, 24 29 T28 29"
+fill="none"
+stroke="#D9A295"
+stroke-width="2.5"
+stroke-linecap="round"/&gt;
+&lt;line x1="24" y1="12" x2="24" y2="36"
+stroke="#D9A295"
+stroke-width="2"
+stroke-dasharray="2,2"
+opacity="0.6"/&gt;
+&lt;/svg&gt;
+&lt;div style="position: absolute; bottom: -4px; right: -4px; width: 26px; height: 26px; background: #D9A295; border: 2.5px solid var(--card-background, #fff); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 13px; color: white; box-shadow: 0 2px 6px rgba(0,0,0,0.3); line-height: 1; padding-top: 1px;"&gt;
+1*
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="iiia-content" style="flex: 1; min-width: 0;"&gt;
+&lt;div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap;"&gt;
+&lt;span style="font-weight: 700; font-size: 17px; color: #D9A295; letter-spacing: 0.5px; text-shadow: 0 1px 2px rgba(0,0,0,0.1);"&gt;
+IIIA 1*
+&lt;/span&gt;
+&lt;span class="iiia-category" style="font-size: 12px; color: var(--card-text-color-tertiary, #666); background: #D9A29520; padding: 3px 10px; border-radius: 6px; font-weight: 500; border: 1px solid #D9A29530;"&gt;
+未经AI制作
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="iiia-description" style="font-size: 14px; color: var(--card-text-color-secondary, #666); line-height: 1.5; opacity: 0.95;"&gt;
+AI仅提供参考，未参与制作 + AI主题
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a href="https://ersansan233.github.io/IIIA/"
+target="_blank"
+rel="noopener noreferrer"
+title="了解更多关于AI参与指数"
+class="iiia-info-link"
+style="width: 22px; height: 22px; border-radius: 50%; background: #D9A29530; color: #D9A295; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; text-decoration: none; transition: all 0.2s; flex-shrink: 0; border: 1.5px solid #D9A29550;"
+onmouseover="this.style.background='#D9A295'; this.style.color='white'; this.style.transform='scale(1.1)';"
+onmouseout="this.style.background='#D9A29530'; this.style.color='#D9A295'; this.style.transform='scale(1)';"&gt;
+?
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.iiia-badge {
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.iiia-badge:hover {
+transform: translateY(-2px);
+box-shadow: 0 4px 12px #D9A29530;
+}
+&lt;/style&gt;
+&lt;h2 id="更新日志20260115"&gt;更新日志（2026.01.15）
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;2026.02.07：增加必要的考核，并且去除考核内 AI 参与撰写的文档&lt;/li&gt;
+&lt;li&gt;2026.01.15：补充一些细节，修正一些语句以及 markdown 格式&lt;/li&gt;
+&lt;li&gt;2025.10.19：初稿完成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="思考"&gt;思考
+&lt;/h2&gt;&lt;p&gt;趁着睡不着觉，大概谈谈西二 AI 的考核设计思路，以及自己对 AI 学习路线的思考。&lt;/p&gt;
+&lt;p&gt;有些人可能觉得 2024 西二 AI 的考核路线学的太注重 oop，过于底层，“学院派”，没有应用。作为 2024 西二 AI 考核的亲历者，我深刻认识了这些，并且下定决心探索一条适合的学习路线，为后来者开路。&lt;/p&gt;
+&lt;p&gt;首先必须明确的是，24 的西二 AI 考核是合理的，这是一次大胆的探索，已经比再前一年，AI 组第一次开的时候的考核合理多了。23 的考核主要是注重于对 AI 的应用，而对于底层的思维有所欠缺。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2026.01.15 补：事实上，放在 23 年的环境下，这样的考核是合理的，但是随着时代的发展，AI 库封装的完善，当时的考核放在现在，只是调一个语句的事情。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;并且当时学习和参考资料极其匮乏，24 的组长为之添加了诸多详实的材料，我的工作也不过是基于他的基本路线，优化考核的难度曲线，以及补充一些对应用相关的部分。&lt;/p&gt;
+&lt;p&gt;这几个月在看 go 组的考核，并且目前也亲手写了前四个 task。go 组的考核经过重构后，变得极为合理，路线明朗。&lt;/p&gt;
+&lt;p&gt;第一二轮的语法基础和爬虫是标配，这不必多说。第三轮就是使用现代框架 hertz 写一个简单的备忘录 demo，第四轮则是实现一个丐版抖音，第五轮是把抖音升级为微服务架构。&lt;/p&gt;
+&lt;p&gt;更后面，就是写 mit6.824（已更名为 mit6.5840，25spring 的 golang 版本采用的是 1.23.5），这是一个分布式集群的项目，是可以写在简历上的。&lt;/p&gt;
+&lt;p&gt;以及再然后，西二这边会组织开源活动，参加过开源活动后，你手头的简历已经非常牛逼了，再准备一下算法和八股，投中小厂实习手到擒来，再凭借着中小厂实习以及开源的经验，暑期实习进大厂就是板上钉钉的事情，几个月后实习转正，大厂得手。&lt;/p&gt;
+&lt;p&gt;这一整个过程大约耗时 2-3 年，可以看到，go 考核路线清晰明确，从初学到项目，到开源最后到实习，大厂，清晰明确。&lt;/p&gt;
+&lt;p&gt;那么对于 AI 呢？&lt;/p&gt;
+&lt;p&gt;首先，AI 并不像后端那样，它并不是很成熟的东西，充满了未知性。市面上的学习路线庞杂不堪，而且没有清晰的导向，来说明你整条路线到底最后是去干嘛的，是去搞 AI 应用，还是去做 AI 科研，这两者就已经有很大的不同。&lt;/p&gt;
+&lt;p&gt;其次，AI 卡学历，一个研究生的学历是最基本的。在福大这样的 211 下，保研既困难，也不困难。你如果是计科的，那有福了，保研线非常高，虽说一旦保研就基本厦大到手。若是软工或者其他小类，算是还好，但 5 % 的 985 保研率也是很难的。我现在在这里说如果是想搞科研的，保或考福大研也不错，小登们肯定目前是听不下去的，当然也有像本人这种学历不甘是福大的。&lt;/p&gt;
+&lt;p&gt;对于考研，如果是考外校 985，通常需要花费 9-11 个月，每天 7h+ 的学习，如果是考本校，通常是 6-7 个月，每天 7h+ 的学习。试想，对于 all in AI 的来说，如果保研没得保，考研又没考上，那有福了，虽说福州这边基本你是福大的就要，但是 7k 的薪资不是开玩笑的，这也是本人为什么选择在今年 7 月开始学习 golang 的原因之一，起码考研没上岸，还稍微有点能力去挣扎一下。&lt;/p&gt;
+&lt;p&gt;最后，AI 目前处于红利期，未来的发展很不确定。目前 AI 对于算法这块的进展没什么很大的突破，架构基本都源自于 2017 年的 transformer，这几年 AI 蓬发的原因是硬件进步。然而刚开始的竞争还在优化算法，现在的竞争都变成堆卡了。谁的卡多，谁训练的模型久，谁得出的效果就更好。&lt;/p&gt;
+&lt;p&gt;此外，还有一点我非常担忧的，AI 的顶层封装的太完善了，这是一件好事，也是一件坏事。pytorch 已经封装的很好了，pytorch 上面还有一层 transformer 库，transformer 库上还有继续 hugging face 封装的各种插件。而这些，你是不需要去学习前置知识的，只需要看文档，即使看不懂也无所谓，然后调库即可。&lt;/p&gt;
+&lt;p&gt;放弃思考，直接调库。&lt;/p&gt;
+&lt;p&gt;我不说一个其他方向精通的人想转 AI，就说即便是其他理工科专业，甚至是文科专业的人，想去直接学这些顶层的是非常简单的。因为你不需要去理解背后的反向传播，矩阵偏导，数学原理到底是什么，也不需要去了解什么是 softmax，什么是卷积，甚至不需要去了解什么是 transformer。他们只需要阅读文档，知道这个技术大概是做什么的，有什么效果的，然后调用，调参，就能达到很好的效果。
+那么从最底层开始往上学到底有什么效果呢，我不禁思考，如果有一条捷径摆在我眼前，能立刻出结果，出成果，我会不会走？&lt;/p&gt;
+&lt;p&gt;答案是否定的，至少现在，我不会。曾经的我也是会在数据机构课上大放厥词，说这课一点用都没有，背后的底层机理学来干嘛，直接掉stl库不就好了，但是这样的提升对自身毫无帮助。&lt;/p&gt;
+&lt;p&gt;尤其要记住，我是，当然你也是，是 cs 学生。若是不了解底层，你和其他专业的学生没有任何区别，只是会使用工具，你完全不懂背后的原理。&lt;/p&gt;
+&lt;p&gt;不懂底层，同时也意味着—可代替性极强。&lt;/p&gt;
+&lt;p&gt;此前和一些人争论到底要不要直接学顶层的问题，现在想来也争累了。我在这里下个结论：&lt;/p&gt;
+&lt;p&gt;如果你想真正的做科研，做产品，完成端到端的交付，清晰明了的掌握每个环节的实现，那你应该从底往上学。&lt;/p&gt;
+&lt;p&gt;如果你只是想打一些比赛，看顶层就够了。&lt;/p&gt;
+&lt;p&gt;讲到这里，又回到之前的那个问题，学习路线上来。那么无论是你未来要做 AI 应用 还是投身科研，基础都是必要的。&lt;/p&gt;
+&lt;p&gt;而西二 AI 考核路线要求的，只是基础。学完了那些基础，你就拥有了可以阅读任何一篇顶会，复现论文代码的能力，也能快速深层次理解更高层的封装，方法，和学习部署 AI 应用的能力。&lt;/p&gt;
+&lt;p&gt;这段话写的很高大上，其实意思就是—&lt;/p&gt;
+&lt;p&gt;你学完了考核的要求，恭喜你，AI 基础学完了。&lt;/p&gt;
+&lt;p&gt;是的，只是基础，而且只是理论基础。所以我才想着在考核结束后面继续加东西，并且补充考核间的应用，而不只是写一个公开课就了事，其他什么都不管。&lt;/p&gt;
+&lt;p&gt;AI 需要的前置知识太多了，不像其他语言那样那种，面向对象面向用户的应用居多，AI 的本质其实是数学，是算法。&lt;/p&gt;
+&lt;p&gt;在这里先插入一下为什么选择西二，为什么选择西二 AI。&lt;/p&gt;
+&lt;p&gt;西二在线是一个学生组织，组织内部没有利益纠纷，诚然加入的目的各有千秋，我也承认我最初加入西二的想法是获取一个个人工位，但真正加入了这个组织，才会发现自学社区的魅力—没有 ddl，没有竞争，有的只是相互扶持与交流，所以第一，加入西二，你将轻松拥有和各路大佬交流的机会。&lt;/p&gt;
+&lt;p&gt;第二，关于进实验室做科研。在福大，你只需要写完 d2l 或者 cs231n（明面上的要求是前者，前者更容易一些且为中文），稍微主动一点，基本所有的实验室都会要你。&lt;/p&gt;
+&lt;p&gt;（和有关人士聊过之后，实验室的逻辑大概是这样子的：如果你绩点很高，基本所有实验室都能要你，可以进去再学；如果你绩点一般，那手头就得有点东西了。但是第一步都是一样的，发邮件直接问老师，没发就等于没有开始）&lt;/p&gt;
+&lt;p&gt;第三，工位，这点就不必多说了。&lt;/p&gt;
+&lt;p&gt;第四，实习证明。&lt;/p&gt;
+&lt;p&gt;第五，西二 AI 背靠老师，可以直接提供科研机会（但是不建议，除非没路走了）。&lt;/p&gt;
+&lt;p&gt;那么为什么选择英文的 cs231n 作为考核主体，而不是中文的 d2l 呢，事实上是硬件的问题，并不是所有人的电脑硬件条件允许跑 d2l 的。&lt;/p&gt;
+&lt;p&gt;讲到这里，终于进入 AI 的学习路线了。去年的考核是 3 轮，task1 是宝可梦，一个对初学者不是很友好的 oop 项目；task2 是爬虫，pandas 和 matplotlib 的简单应用；task3 是 cs231n。&lt;/p&gt;
+&lt;p&gt;学习路线是没问题的，但是过于单薄，且学习曲线抽象，没有应用，没有后续，基于这些，我做了非常多的修改。&lt;/p&gt;
+&lt;p&gt;整个学习路线的设计流程如下——&lt;/p&gt;
+&lt;p&gt;贴一下&lt;a class="link" href="https://github.com/ShaddockNH3/learn-AI" target="_blank" rel="noopener"
+&gt;考核地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;task1：py基础（含一定oop思想）&lt;/p&gt;
+&lt;p&gt;task2：爬虫（基本业务可能会碰到的所有情况）&lt;/p&gt;
+&lt;p&gt;task3：数据分析工具（numpy，pandas，matplotlib）&lt;/p&gt;
+&lt;p&gt;task4：机器学习（knn，svm，softmax，两层神经网络，以及与深度学习机理不同的决策树，随机森林，xgboost等）&lt;/p&gt;
+&lt;p&gt;task5：深度学习入门（反向传播，批/层归一化，cnn，pytorch）&lt;/p&gt;
+&lt;p&gt;task6：深度学习深入&lt;/p&gt;
+&lt;p&gt;llm：词嵌入，机器翻译，transformer&lt;/p&gt;
+&lt;p&gt;cv：rnn，transformer，gan，ssl，ltsm&lt;/p&gt;
+&lt;p&gt;task7：&lt;/p&gt;
+&lt;p&gt;llm：hugging face 生态（包括pipline，预训练），langchain框架&lt;/p&gt;
+&lt;p&gt;cv：timm，opencv，Albumentations，OpenMMLab&lt;/p&gt;
+&lt;p&gt;task8：&lt;/p&gt;
+&lt;p&gt;llm应用：高级 rag 与 agent，模型微调，lora&lt;/p&gt;
+&lt;p&gt;llm论文：BERT -&amp;gt; gpt2/3 -&amp;gt; LoRA -&amp;gt; RAG -&amp;gt; ReAct(Agent)&lt;/p&gt;
+&lt;p&gt;cv应用：YOLO/Faster，R-CNN&lt;/p&gt;
+&lt;p&gt;cv论文：AlexNet -&amp;gt; ResNet -&amp;gt; R-CNN -&amp;gt; YOLO&lt;/p&gt;
+&lt;p&gt;task9：&lt;/p&gt;
+&lt;p&gt;llm应用：LLM 部署与运维 (MLOps / LLMOps)，vllm 推理，流式传输，容器&lt;/p&gt;
+&lt;p&gt;llm论文：RLHF -&amp;gt; DPO -&amp;gt; HELM&lt;/p&gt;
+&lt;p&gt;cv应用：CV 部署与运维 (MLOps)，ONNX/TensorRT 加速，实时应用，容器&lt;/p&gt;
+&lt;p&gt;cv论文：3D Vision -&amp;gt; Stable Diffusion -&amp;gt; DiT(Transformer&amp;amp;Diffusion, the core of sora)&lt;/p&gt;
+&lt;p&gt;task10：AI 安全与伦理，Embodied AI/Robotics，多模态（Gemini系列），World Models（JEPA框架等），自己的理解&lt;/p&gt;
+&lt;p&gt;当然对于考核，只要求 task1-6。&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;这部分内容有夸大之嫌&lt;/summary&gt;
+&lt;p&gt;学习路线的第一部分是 task1-3，这部分是学习 AI 的基础，设计思路主要是：&lt;/p&gt;
+&lt;p&gt;py 基础-&amp;gt;爬虫-&amp;gt;数据处理&lt;/p&gt;
+&lt;p&gt;首先是 task1，task1主要是学习计算机的基本习惯，git的使用，终端的初探，环境的配置等等。是的，我并没有说熟悉语法。许多小白上了大学第一次了解计算机这个学科，对于老手认为是常识的东西，很多东西都不了解，这些事项是需要时间去消化的，而且绝不只是 2 个月就能消化的。&lt;/p&gt;
+&lt;p&gt;并且他们也常常陷入图省事的问题，比如说很多新手不喜欢用终端，也不喜欢写注释，变量名乱取，这些坏毛病养成了之后，想改就很难了，所以第一轮要人为的去审代码，来预防这些问题。&lt;/p&gt;
+&lt;p&gt;再然后才是具体编程语言考核考什么，23 年的考核是一堆输入输出问题，没有形成基本的项目思维，24 年的 oop 用力过猛，私下里询问一些现在在实验室的朋友说是难度太大 ，且不愿意去写，几经考量后，我综合了一下想法，并且做出了修改。&lt;/p&gt;
+&lt;p&gt;首先我保留并新增了对新手友好的 oi，标为选做。洛谷的那几道题是从 go 组考核拿过来的，另外一些熟悉语法的问题是从曾经的 py 后端考核搬过来的。这样既利好新手，也利好老手。老手不需要 oi 来熟悉语法，而新手恰恰需要 oi 这种即时满足的东西来让自己有东西往下学。&lt;/p&gt;
+&lt;p&gt;本来我想把 cs61a 的 a1 直接翻译然后拿来当考核，后来想想算了。即使是翻译过的 cs61a 的 assignment1，对于新手来说也太难了。所以直接自己操刀写了一个模仿 cs61a 的，填函数的小项目作为作业一，并且引入了判断函数，可以实时检测到底有没有写对。&lt;/p&gt;
+&lt;p&gt;Longmen_vs_Nabiya 大概的目的就是帮新手快速上手，而不只是局限于 oi 的思维。整个过程只需要看着那份文档，对着写就行了（虽然夹杂了一点私货）&lt;/p&gt;
+&lt;p&gt;至于作业二（校园·if恋），这是 &lt;a class="link" href="https://github.com/TomoriNaoiy" target="_blank" rel="noopener"
+&gt;Tomori Nao&lt;/a&gt; 操刀写的。&lt;/p&gt;
+&lt;p&gt;在设计这个作业时，我们考虑到了作业一虽然能像 cs61a 那样，很好地锻炼照着文档填函数和实时检测反馈的能力，但这主要还是在“面向过程”的层面。而 24 年考核那个纯 OOP 难度太大，导致大家没什么动力去写，效果并不好。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2026.01.15 补：不过事实上，目前写完 task1-3 的 7 个人里，有 5 个写了宝可梦。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;所以，作业二的目的，就是搭建一个从面向过程到面向对象的桥梁。&lt;/p&gt;
+&lt;p&gt;它本质上依然是一个填函数的小项目，延续了作业一的模式，降低了新手的心理门槛。但这次，大家需要填充的不再是孤立的函数，而是类（Class）里面的成员函数（比如角色的talk()和give_gift()）。&lt;/p&gt;
+&lt;p&gt;我们为大家提供了一个完整的游戏框架和一份详细的“需求文档”（也就是剧本），大家不需要从零开始去设计复杂的类结构（这是最难的），只需要在Tomori Nao搭好的架子里，去实现核心的交互逻辑。&lt;/p&gt;
+&lt;p&gt;这么做的目的，是想让大家在最小的阻力下，第一次真正地“使用”和“感受”OOP，理解对象和方法是怎么协同工作的。&lt;/p&gt;
+&lt;p&gt;当然，根据去年考核的经验，这份作业明确要求了代码拆分（分到多个.py文件）和 Type Hint。这其实就是在强迫从现在开始就建立起项目思维和工程化的好习惯，这比单纯学会OOP更重要。&lt;/p&gt;
+&lt;p&gt;当然，Tomori Nao 用一个 Galgame 主题来包装，也是希望大家能真正有兴趣玩进去、写进去，在获得即时满足的同时，不知不觉地完成这次从写脚本到写项目的关键一跃。&lt;/p&gt;
+&lt;p&gt;在设计作业二的时候，我和 Tomori Nao 讨论了很久，其实就是关于考核难度的把握。我是想着一定要加入编写存档的逻辑，而他反对。后来讨论之下得出结论，由于本人当时做考核的时候，尽管是零基础，但好歹耳濡目染之下已经有了一定的编程思维。增加这部分逻辑对新手而言确实有一定难度，所以最后只是将之作为 bonus。&lt;/p&gt;
+&lt;p&gt;作业三把去年的宝可梦游戏搬过来了，是上一任组长&lt;a class="link" href="https://github.com/wjord2023" target="_blank" rel="noopener"
+&gt;JadeMelody&lt;/a&gt;去年设计的。我将其搬运过来，旨在提供一个更具挑战性、更贴近真实游戏开发的OOP实践项目。&lt;/p&gt;
+&lt;p&gt;在设计这份作业时，我们希望它能成为一个重要的里程碑式项目，帮助大家完成从小模块功能实现到大型、复杂系统架构设计的跨越。&lt;/p&gt;
+&lt;p&gt;与作业一（娜比娅的填空）和作业二（校园·if恋的框架填充）不同，作业三的目标是引导同学们从更高层次去思考和实践面向对象编程（OOP）。&lt;/p&gt;
+&lt;p&gt;它要求大家主动进行类设计与继承体系构建，这是一个完整的宝可梦对战系统，包含多种宝可梦、多种属性、多种技能。这需要同学们主动去思考如何抽象出&lt;code&gt;Pokemon&lt;/code&gt;基类、&lt;code&gt;Attribute&lt;/code&gt;类（如&lt;code&gt;WaterPokemon&lt;/code&gt;），以及各种具体的宝可梦类。这对于理解继承和多态等OOP核心概念，并将其应用到复杂系统设计中，是绝佳的机会。&lt;/p&gt;
+&lt;p&gt;同时，他对逻辑的思考有一定的要求，宝可梦对战中包含了属性克制、技能效果、状态（中毒、烧伤）、回合制流程、闪避率、以及各种被动特性。这些都需要同学们细致地考虑如何将这些逻辑合理地封装在不同的类和方法中，并通过对象之间的交互来实现整个游戏流程。这极大地锻炼了大家的系统设计能力和逻辑思维能力。&lt;/p&gt;
+&lt;p&gt;然后，就是学习代码复用和优化：作业中明确提出了尽可能避免代码重复，并指出了框架和示例代码中有许多不足的地方，可以多多完善。这不仅仅是鼓励实现功能，更是在引导大家思考如何写出优雅、可维护、可扩展的代码，这是未来任何软件工程都不可或缺的素养。&lt;/p&gt;
+&lt;p&gt;当然，这份作业的难度会比前两个大幅提升，就像在作业难度排序中显示的 &lt;code&gt;作业一 &amp;lt;&amp;lt; 作业二 &amp;lt; 作业三&lt;/code&gt;。但通过亲手设计和实现这样一个复杂的、趣味性十足的系统，大家对OOP的理解将达到一个新的高度，真正体会到面向对象思想在解决复杂问题时的强大魔力。&lt;/p&gt;
+&lt;p&gt;但是为什么不直接把这份考核当作作业 2 呢，其实是因为相对而言，编写 AI 程序对 OOP 的要求并没有那么高深，所以今年的一轮考核才会被大刀阔斧的改革。&lt;/p&gt;
+&lt;p&gt;作业四是自己写一个项目，这个就是给不想照着考核的来看了，爱怎么写怎么写，反正第一轮考核有输出就好了。&lt;/p&gt;
+&lt;p&gt;除此之外，就是撰写两份文档。对于文档1，其实就是将零散的知识点，编织成系统的知识网。&lt;/p&gt;
+&lt;p&gt;很多新手在学习编程时，只是机械地学会了某些语法，尤其是在完成了OI题或小项目后，他们可能会用了，但并不代表他们真懂了。&lt;/p&gt;
+&lt;p&gt;这份文档的目的，就是为了对抗这种“知其然，而不知其所以然”的浅层学习。&lt;/p&gt;
+&lt;p&gt;关于文档 2，就是建立一个宏观认知架构，不需要精确的数学公式，只需要大致讲解一下自己的理解，这一点十分重要。&lt;/p&gt;
+&lt;p&gt;此外就是以后需要经常撰写文档。一份好的文档需要做到让任何人都看得明白，看得懂，得把看文档的人当傻子，这样才写的好文档。&lt;/p&gt;
+&lt;p&gt;最后就是 cs61a，作为 bonus 的项目。&lt;/p&gt;
+&lt;p&gt;在 AI 领域，最前沿的知识、最深刻的洞察往往来自于顶级大学的课程和论文。CS61A 正是这种源头活水的代表。我们希望通过这个 Bonus，鼓励大家勇敢地去接触和拥抱这些第一手的、高质量的英文学习资源。&lt;/p&gt;
+&lt;p&gt;task1 给的时间非常长，对于新手给了足足 2 个半月（如果是算上正式开始的话，是一个半月）。本质就是希望新手可以在一开始的学习中，打下扎实的基础。&lt;/p&gt;
+&lt;p&gt;接下来就是task2，task2 我沿用了上一任族长的考核——爬教务处 ，爬知乎，然后将 pandas 和 matplotlib 相关的东西放在了新增的 task3。&lt;/p&gt;
+&lt;p&gt;爬虫，对于学习 AI 的来说是必要的。正如我在考核文档里说的那样，当某日陷入训练数据丢失，或者曾经写的爬虫脚本失效时，你得亲手去修改这些爬虫，让他们获取到正确的数据。&lt;/p&gt;
+&lt;p&gt;但本轮作业的重点在于实现核心功能并成功运行，不必在细节上追求完美，更鼓励大胆尝试，让程序先跑起来，can run is ok。&lt;/p&gt;
+&lt;p&gt;爬虫只要求掌握最基础的使用 requests，而不是 httpx，因为以后的爬虫大多数都是依据 api 来爬，而提供的 api 大多数都会有比如一秒只能爬一次的限制，不像福大教务处，只要你连接校园网就可以随便爬。&lt;/p&gt;
+&lt;p&gt;另外需要掌握更强大的浏览器模拟工具 Selenium，以及阅读文档，利用 api 来获取数据的能力。&lt;/p&gt;
+&lt;p&gt;py 爬虫的生态目前也是最完善的，此前在和&lt;a class="link" href="https://github.com/weijianxian" target="_blank" rel="noopener"
+&gt;柠檬味氨水&lt;/a&gt;讨论 py 的爬虫，以及爬虫本身的生态。基于这些以及一些思考，爬虫作业的设计就很显然了。&lt;/p&gt;
+&lt;p&gt;基本的爬虫-&amp;gt; selenium -&amp;gt;找隐藏的 api 接口-&amp;gt;直接利用已有 api 请求-&amp;gt;逆向&lt;/p&gt;
+&lt;p&gt;作业一是基本的爬虫，对于基本的爬虫，这其实没什么好说的。只要连接校园网就可以随便爬取，不需要注意任何请求的规范。这里主要就是锻炼一下使用阿贾克斯请求的能力。很多数据不是写死在网页里的，而是通过 network 里的 XHR 动态加载的。所以这些不是 request 然后正则在网页里找，而是需要利用阿贾克斯请求来获取到这些数据。&lt;/p&gt;
+&lt;p&gt;作业二是针对反爬很强的网站。对于这些网站，比如说知乎，只是 request 请求，即便是进行了 UA 伪装，也无能为力。当正门（API）走不通，或者正门太复杂时，我们可以“假装成一个真正的人类”来操作浏览器，绕过屏障，这是对反爬的第一次正面攻坚，也是为什么引入 Selenium。&lt;/p&gt;
+&lt;p&gt;作业三是&lt;a class="link" href="https://github.com/weijianxian" target="_blank" rel="noopener"
+&gt;柠檬味氨水&lt;/a&gt;设计的爬开源之夏的作业。有些网页使用了前后端分离的技术，直接使用 requests 等库是无法获取到网页内容的，而使用 selenium 等浏览器模拟工具又显得过于重型。而这类网站一般会通过接口与后端进行数据交互，我们可以通过在浏览器控制台的 network 中找到这些接口并进行请求，从而获取到我们想要的数据。&lt;/p&gt;
+&lt;p&gt;作业四的目的是学会阅读 API 文档，并精确构建请求。学会了找 API，下一步就是用公开的、正式的 API 来精确获取所有指定数据。&lt;/p&gt;
+&lt;p&gt;bonus的设计是爬b-wiki。这已经接近“逆向”了。mediawiki 的 API 全是生肉，而且逻辑非常的抽象。这不是简单的调用，而是需要去理解一个复杂系统的设计逻辑。&lt;/p&gt;
+&lt;p&gt;上述的这些其实就已经包含了几乎所有编写爬虫可能会碰到的情况，基本不会碰到更复杂的了。&lt;/p&gt;
+&lt;p&gt;经历了 task1-2 的学习，现在应该是基本已经掌握 py 的基础，一定的 oop 思想以及爬虫的能力。此时依旧尚未开始学习人工智能，在正式学习人工智能之前，还需要一些知识进行过渡，最重要的就是一些数据分析工具的使用，numpy, pandas, matplotlib等。&lt;/p&gt;
+&lt;p&gt;这些数据分析工具是必要的，也是今后写 AI 常常打交道的东西。&lt;/p&gt;
+&lt;p&gt;Numpy 的作用是使用向量化的思维处理数据，极大的提高了运算速度；而 Pandas 则是把乱七八糟的数据整理得井井有条，贴上标签，想怎么筛选、怎么分组、怎么合并都十分方便；Matplotlib 让冰冷的数据开口说话，把我们分析的结果变成漂亮的图表。&lt;/p&gt;
+&lt;p&gt;其实这部分的作业设计没什么好讲的，作业 1 和 2 沿用上一任组长，作业 3-5 是自己新增的，主要讲几个要点——&lt;/p&gt;
+&lt;p&gt;作业 1 第一次硬性要求使用 Jupyter Notebook，Jupter Notebook 在业界被广泛使用，掌握是必要的，尤其是后续使用 colab，其内核就是 Jupyter Notebook。&lt;/p&gt;
+&lt;p&gt;作业 2 没什么好说的，主要就是熟悉一下这个画图工具就行了。&lt;/p&gt;
+&lt;p&gt;作业 3-5 的主要思维是：&lt;/p&gt;
+&lt;p&gt;基本矩阵操作-&amp;gt;广播机制-&amp;gt;基本图像处理&lt;/p&gt;
+&lt;p&gt;有一部分东西设计为选做的原因是 task4-5 大量的使用这些机制，不会这些的话也会被动的掌握，所以还是建议写一写的。&lt;/p&gt;
+&lt;p&gt;那么接下来，才是终于进入了 task4-6，也就是正式学习 AI 的内容了。这部分的学习思路主要是：&lt;/p&gt;
+&lt;p&gt;机器学习-&amp;gt;深度学习入门-&amp;gt;深度学习前沿&lt;/p&gt;
+&lt;p&gt;在这里也是直接引入了大名鼎鼎的 cs231n 公开课作为考核的内容。&lt;/p&gt;
+&lt;p&gt;d2l 虽然是中文，但是其需要你本地有 gpu，对于像我这种手头拿着2019年联想小新13的穷哥们来说，是学不了的，除非氪金。而 cs231n 拉来谷歌作为赞助商，有免费的 colab，所以才会把考核设计成 cs231n，而不是 d2l。&lt;/p&gt;
+&lt;p&gt;那么到这里其实还有一个问题，事实上，对于萌新而言，他们目前的数学基础不足以支撑 AI 的学习，所以我增加了一层前置知识，足足有七八条，供他们参考和学习。&lt;/p&gt;
+&lt;p&gt;cs231n 的这门公开课本身的设计路线是——&lt;/p&gt;
+&lt;p&gt;机器学习（knn, svm, softmax）-&amp;gt; 两层神经网络 -&amp;gt; 深度学习基础（cnn）-&amp;gt; 引入pytorch -&amp;gt; 深度学习前沿（rnn，transformer等）&lt;/p&gt;
+&lt;p&gt;对于深度学习前沿这部分的内容，我则是针对 LLM 和 CV 调整为 cs224n 的所有 assignment 或就是 cs231n 本身的 a3。&lt;/p&gt;
+&lt;p&gt;那么有关于 task4-6 的基本骨干就设计完毕了，这条路线也是很经典的机器学习-深度学习路线，从上世纪 90 年代乃至更早的机器学习方法学习到 2017 年发布的 transformer。&lt;/p&gt;
+&lt;p&gt;然而这些只是理论派的学习，略缺乏应用，并且事实上机器学习不只是只有深度学习这一派的。目前的深度学习是基于一部分机器学习算法改进而来的，那么对于非深度学习机理的机器学习，有没有必要掌握呢？我认为也是必要的，但不需要掌握的那么深，只需要大概知道是做什么的就行了，无需从零开始手搓。&lt;/p&gt;
+&lt;p&gt;这部分虽然不是深度学习的路线，但是在数据分析，数学建模等领域也有很大的用处。所以我在 task4 引入了 sk-learn 库的学习，并且引入了一个泰坦尼克号的 kaggle 任务，作为机器学习成果的应用，而且泰坦尼克号 kaggle 任务的最优解应该不是深度学习那一派算法的机器学习。&lt;/p&gt;
+&lt;p&gt;对于泰坦尼克号这个任务，我一开始接触的时候也是很懵逼的，因为我不知道除了替换模型和超参数之外还有什么办法可以优化，好在思考了一阵子，想出了挺多方案的。比如说可以增加特征，将异常值通过某些手段给他补上，这是优化数据；再然后才是替换模型，替换超参数等等。&lt;/p&gt;
+&lt;p&gt;当然还有更多的思路，这里就不一一列举了。&lt;/p&gt;
+&lt;p&gt;对于 task5 的应用，我引入了一个最经典的 CNN，就是在 MNIST 数据集上训练数字识别。经典但是非常有效，task5 应该是用 numpy 手搓了 CNN 后，第一次接触到现代框架，正好拿这部分内容练手。&lt;/p&gt;
+&lt;p&gt;而对于 task6，我就不额外增加应用了，这部分内容虽然代码不难，但是非常难理解。对于 AI，学到后面反而是理解能力&amp;gt;代码能力，很多东西你需要从头到尾的去理解，而对于代码部分，反而是次要的任务。&lt;/p&gt;
+&lt;p&gt;其实我也建议走 LLM 路线的先去写 cs224n 的前三个 assignment，然后再去把 cs231n 给写完。这样的话其实路线才是稍微完整的，cs224n 的 assignment4 直接是 transformer，而没有其他前时代模型的描述，还是稍微有点遗憾的。
+学到这里，终于把所有和 AI 有关的基础学完了，考核其实也到尾声了。那么未来呢，学完了这些能做什么呢，这也是我设计 task7-10 的目的。&lt;/p&gt;
+&lt;p&gt;由于本人目前是走 LLM 的，而且是 LLM 的应用，对其他方向其实了解的不多，这几天也在到处问，并且希望在 12 月结束前撰写完毕这份 blog。&lt;/p&gt;
+&lt;p&gt;总体而言，task7-10 主要是：&lt;/p&gt;
+&lt;p&gt;llm/cv 的现代工具-&amp;gt;走科研的读经典论文/走应用的开发-&amp;gt;更前沿的论文/更深入的开发并打包-&amp;gt;关于 AI 的未来以及思考。&lt;/p&gt;
+&lt;p&gt;事实上，task 7-10 的编写反而遵守了小黄老师的规矩，也就是从一个东西开始，后面的每一轮要在他上面添砖加瓦。&lt;/p&gt;
+&lt;p&gt;task7 主要学的是 LLM 和 CV 的现代工具，而 task8 则直接拆解为四个方向，LLM 应用，LLM 论文，CV 应用以及 CV 论文。&lt;/p&gt;
+&lt;p&gt;首先以我最为得意的 LLM 应用开始，LLM 应用 task7 只是学了很基本的使用，主要是 langchain 的记忆模块以及简单的 hugging face 词句调用。&lt;/p&gt;
+&lt;p&gt;而 task8 就是在之前的基础上，完完整整的实现一个微调，RAG 检索，ReAct Agent 设计的完整流程。&lt;/p&gt;
+&lt;p&gt;task9 则是在这基础上进一步打包，从在开发环境里能跑变为在生产环境里能跑。&lt;/p&gt;
+&lt;p&gt;而 cv 应用其实也差不多，这里就不多说了。&lt;/p&gt;
+&lt;p&gt;至于论文部分，就是 task8-9，总体的设计都是过去的论文到现在的论文。从旧时代到新时代，最后到 task10 的未来。&lt;/p&gt;
+&lt;p&gt;task10我主要是抛出几个思考，比如说LLM架构未来在多模态，老架构可能已经到了极限等等。&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;总的来说，这一整份设计图，我还是相对满意的，只是感觉，依旧是内容不足，过于单一化。&lt;/p&gt;
+&lt;p&gt;其他也不多说了，后面我越写越恶心，其中之一就是自己的输出被人当做应当如此，这点我在撰写转专业总文档的时候就已经体会的淋漓尽致；另一点是自吹自擂。&lt;/p&gt;
+&lt;p&gt;其实我这条路也设计的很一般，只是我闲暇之余的一点思考罢了，希望能有后来者能补全并完善，AI 始终需要追逐前沿知识。&lt;/p&gt;
+&lt;p&gt;追逐梦想，首先要考虑的是生活，这是普通人的无奈。&lt;/p&gt;
+&lt;h2 id="20260115-更新内容"&gt;2026.01.15 更新内容
+&lt;/h2&gt;&lt;p&gt;昨天考核了一下 task 1-3 的内容，总体而言，做的很好，比我预想中的好多了。&lt;/p&gt;
+&lt;p&gt;我今天也基于昨天考核发现了问题，简单为 Learn-AI 那个库里塞了点学习性的东西。&lt;/p&gt;
+&lt;p&gt;本来更新博客想多写点东西，写着写着突然感觉索然无味，就干脆算了。&lt;/p&gt;
+&lt;p&gt;或许是我今天的修改并没有修改 task 7-10，所以不想多说什么。&lt;/p&gt;
+&lt;p&gt;感觉是这样。&lt;/p&gt;
+&lt;p&gt;那么一个月后再看看，我估计得重新看看 cs231n 了。&lt;/p&gt;
+&lt;h2 id="20260207-更新内容"&gt;2026.02.07 更新内容
+&lt;/h2&gt;&lt;p&gt;这次修改改了非常多东西，第一部分就是先加了数学建模，在 task4-6 内引入 2025 电工杯，感觉非常合理。&lt;/p&gt;
+&lt;p&gt;第二是引入了 task5 和 task6，除了 cs231n / cs224n 外的小应用，都不难，主要是思考和理解，最简单的一个十几行代码就搞定了。&lt;/p&gt;
+&lt;p&gt;最后是删了大部分不必要的描述和 AI 参与的文档撰写，味太重了，读都读不下去。&lt;/p&gt;</description></item></channel></rss>
