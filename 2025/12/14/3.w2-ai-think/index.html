@@ -1,0 +1,211 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>有关 AI 学习路线的思考 | Shaddock's Blog</title><meta name="author" content="ShaddockNH3"><meta name="copyright" content="ShaddockNH3"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="探讨 AI 学习路线的设计思路，分析西二 AI 考核的合理性与不足，并提出一条适合未来 AI 学习者的路线图，涵盖基础、应用与科研等多个层面。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="有关 AI 学习路线的思考">
+<meta property="og:url" content="https://shaddocknh3.github.io/2025/12/14/3.w2-ai-think/index.html">
+<meta property="og:site_name" content="Shaddock&#39;s Blog">
+<meta property="og:description" content="探讨 AI 学习路线的设计思路，分析西二 AI 考核的合理性与不足，并提出一条适合未来 AI 学习者的路线图，涵盖基础、应用与科研等多个层面。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://shaddocknh3.github.io/2025/12/14/3.w2-ai-think/w2-ai-think-cover.png">
+<meta property="article:published_time" content="2025-12-14T11:04:08.000Z">
+<meta property="article:modified_time" content="2026-04-14T12:33:28.649Z">
+<meta property="article:author" content="ShaddockNH3">
+<meta property="article:tag" content="AI">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://shaddocknh3.github.io/2025/12/14/3.w2-ai-think/w2-ai-think-cover.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "有关 AI 学习路线的思考",
+  "url": "https://shaddocknh3.github.io/2025/12/14/3.w2-ai-think/",
+  "image": "https://shaddocknh3.github.io/2025/12/14/3.w2-ai-think/w2-ai-think-cover.png",
+  "datePublished": "2025-12-14T11:04:08.000Z",
+  "dateModified": "2026-04-14T12:33:28.649Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "ShaddockNH3",
+      "url": "https://shaddocknh3.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/base-img/favicon.png"><link rel="canonical" href="https://shaddocknh3.github.io/2025/12/14/3.w2-ai-think/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '有关 AI 学习路线的思考',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/2025/12/14/3.w2-ai-think/w2-ai-think-cover.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Shaddock's Blog</span></a><a class="nav-page-title" href="/"><span class="site-name">有关 AI 学习路线的思考</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">有关 AI 学习路线的思考</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-12-14T11:04:08.000Z" title="发表于 2025-12-14 19:04:08">2025-12-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-04-14T12:33:28.649Z" title="更新于 2026-04-14 20:33:28">2026-04-14</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><ul>
+<li>2026.04.14：优化为 2026 版，彻底重构架构，相对隔离了 AI 科研、AI 应用、Python 前后端以及数据分析</li>
+<li>2026.02.07：增加必要的考核，并且去除考核内 AI 参与撰写的文档</li>
+<li>2026.01.15：补充一些细节，修正一些语句以及 markdown 格式</li>
+<li>2025.10.19：初稿完成</li>
+</ul>
+<h2 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h2><p>趁着睡不着觉，大概谈谈西二 AI 的考核设计思路，以及自己对 AI 学习路线的思考。</p>
+<p>有些人可能觉得 2024 西二 AI 的考核路线学的太注重 oop，过于底层，“学院派”，没有应用。作为 2024 西二 AI 考核的亲历者，我深刻认识了这些，并且下定决心探索一条适合的学习路线，为后来者开路。</p>
+<p>首先必须明确的是，24 的西二 AI 考核是合理的。这是一次大胆探索，相比再前两年 AI 组初次开组时的考核，在结构上更完整。23 年考核更注重 AI 应用，对底层思维训练相对不足。</p>
+<blockquote>
+<p>2026.01.15 补：事实上，放在 23 年的环境下，这样的考核是合理的，但是随着时代的发展，AI 库封装的完善，当时的考核放在现在，只是调一个语句的事情。</p>
+<p>2026.04.14 补：经过 26 版的修改，才意识到应该相对隔离 AI 科研、AI 应用、Python 前后端以及数据分析，毕竟这些方向的能力结构差异较大，混在一起反而不清晰了。24 版的专注于 AI 科研，而经我第一版构建的 25 版反而杂糅。</p>
+<p>事实上，23 版的作业也算是 AI 科研，当时还没有那么成熟的库。</p>
+</blockquote>
+<p>并且当时学习和参考资料极其匮乏，24 的组长为之添加了诸多详实的材料，我的工作也不过是基于他的基本路线，优化考核的难度曲线，以及补充一些对应用相关的部分。</p>
+<p>这几个月在看 go 组的考核，并且目前也亲手写了前四个 task。go 组的考核经过重构后，变得极为合理，路线明朗。</p>
+<p>第一二轮的语法基础和爬虫是标配，这不必多说。第三轮就是使用现代框架 hertz 写一个简单的备忘录 demo，第四轮则是实现一个丐版抖音，第五轮是把抖音升级为微服务架构。</p>
+<p>更后面，就是写 mit6.824（已更名为 mit6.5840，25spring 的 golang 版本采用的是 1.23.5），这是一个分布式集群的项目，是可以写在简历上的。</p>
+<p>以及再然后，西二这边会组织开源活动，参加过开源活动后，你手头的简历已经非常牛逼了，再准备一下算法和八股，投中小厂实习手到擒来，再凭借着中小厂实习以及开源的经验，暑期实习进大厂就是板上钉钉的事情，几个月后实习转正，大厂得手。</p>
+<p>这一整个过程大约耗时 2-3 年，可以看到，go 考核路线清晰明确，从初学到项目，到开源最后到实习，大厂，清晰明确。</p>
+<p>那么对于 AI 呢？</p>
+<p>首先，AI 并不像后端那样，它并不是很成熟的东西，充满了未知性。市面上的学习路线庞杂不堪，而且没有清晰的导向，来说明你整条路线到底最后是去干嘛的，是去搞 AI 应用，还是去做 AI 科研，这两者就已经有很大的不同。</p>
+<p>其次，AI 卡学历，一个研究生的学历是最基本的。在福大这样的 211 下，保研既困难，也不困难。你如果是计科的，那有福了，保研线非常高，虽说一旦保研就基本厦大到手。若是软工或者其他小类，算是还好，但 5 % 的 985 保研率也是很难的。我现在在这里说如果是想搞科研的，保或考福大研也不错，小登们肯定目前是听不下去的，当然也有像本人这种学历不甘是福大的。</p>
+<p>对于考研，如果是考外校 985，通常需要花费 9-11 个月，每天 7h+ 的学习，如果是考本校，通常是 6-7 个月，每天 7h+ 的学习。试想，对于 all in AI 的来说，如果保研没得保，考研又没考上，那有福了，虽说福州这边基本你是福大的就要，但是 7k 的薪资不是开玩笑的，这也是本人为什么选择在今年 7 月开始学习 golang 的原因之一，起码考研没上岸，还稍微有点能力去挣扎一下。</p>
+<p>最后，AI 目前处于红利期，未来的发展很不确定。目前 AI 对于算法这块的进展没什么很大的突破，架构基本都源自于 2017 年的 transformer，这几年 AI 蓬发的原因是硬件进步。然而刚开始的竞争还在优化算法，现在的竞争都变成堆卡了。谁的卡多，谁训练的模型久，谁得出的效果就更好。</p>
+<p>此外，还有一点我非常担忧的，AI 的顶层封装的太完善了，这是一件好事，也是一件坏事。pytorch 已经封装的很好了，pytorch 上面还有一层 transformer 库，transformer 库上还有继续 hugging face 封装的各种插件。而这些，你是不需要去学习前置知识的，只需要看文档，即使看不懂也无所谓，然后调库即可。</p>
+<p>放弃思考，直接调库。</p>
+<p>我不说一个其他方向精通的人想转 AI，就说即便是其他理工科专业，甚至是文科专业的人，想去直接学这些顶层的是非常简单的。因为你不需要去理解背后的反向传播，矩阵偏导，数学原理到底是什么，也不需要去了解什么是 softmax，什么是卷积，甚至不需要去了解什么是 transformer。他们只需要阅读文档，知道这个技术大概是做什么的，有什么效果的，然后调用，调参，就能达到很好的效果。</p>
+<p>我不说一个其他方向精通的人想转 AI，就说即便是其他理工科专业，甚至是文科专业的人，想去直接学这些顶层的是非常简单的。因为你不需要去理解背后的反向传播，矩阵偏导，数学原理到底是什么，也不需要去了解什么是 softmax，什么是卷积，甚至不需要去了解什么是 transformer。他们只需要阅读文档，知道这个技术大概是做什么的，有什么效果的，然后调用，调参，就能达到很好的效果。</p>
+<p>那么从最底层开始往上学到底有什么效果呢，我不禁思考，如果有一条捷径摆在我眼前，能立刻出结果，出成果，我会不会走？</p>
+<p>答案是否定的，至少现在，我不会。曾经的我也是会在数据机构课上大放厥词，说这课一点用都没有，背后的底层机理学来干嘛，直接掉stl库不就好了，但是这样的提升对自身毫无帮助。</p>
+<p>尤其要记住，我是，当然你也是，是 cs 学生。若是不了解底层，你和其他专业的学生没有任何区别，只是会使用工具，你完全不懂背后的原理。</p>
+<p>不懂底层，同时也意味着—可代替性极强。</p>
+<p>此前和一些人争论到底要不要直接学顶层的问题，现在想来也争累了。我在这里下个结论：</p>
+<p>如果你想真正的做科研，做产品，完成端到端的交付，清晰明了的掌握每个环节的实现，那你应该从底往上学。</p>
+<p>如果你只是想打一些比赛，看顶层就够了。</p>
+<blockquote>
+<p>2026.04.14 补：关于从底往上学，这个论证其实是有问题的。我在当时并不能完全理解 AI 应用是什么，只是以为 AI 应用是要做一个聊天机器人。</p>
+<p>但是真正的 AI 应用事实上是后端 &#x2F; 运维的分支，也就是你得掌握这两方面知识之后才是锦上添花。具体的我在 26 版 application1.md 刚开始写的很详细了。</p>
+<p>包括下面所说的一些论证，放在现在的环境下有失偏颇。</p>
+</blockquote>
+<p>讲到这里，又回到之前的那个问题，学习路线上来。那么无论是你未来要做 AI 应用 还是投身科研，基础都是必要的。</p>
+<p>而西二 AI 考核路线要求的，只是基础。学完了那些基础，你就拥有了可以阅读任何一篇顶会，复现论文代码的能力，也能快速深层次理解更高层的封装，方法，和学习部署 AI 应用的能力。</p>
+<p>这段话写的很高大上，其实意思就是—</p>
+<p>你学完了考核的要求，恭喜你，AI 基础学完了。</p>
+<p>是的，只是基础，而且只是理论基础。所以我才想着在考核结束后面继续加东西，并且补充考核间的应用，而不只是写一个公开课就了事，其他什么都不管。</p>
+<p>AI 需要的前置知识太多了，不像其他语言那样那种，面向对象面向用户的应用居多，AI 的本质其实是数学，是算法。</p>
+<p>……</p>
+<p>（后文待有时间迁移）</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://shaddocknh3.github.io">ShaddockNH3</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://shaddocknh3.github.io/2025/12/14/3.w2-ai-think/">https://shaddocknh3.github.io/2025/12/14/3.w2-ai-think/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://shaddocknh3.github.io" target="_blank">Shaddock's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/AI/">AI</a></div><div class="post-share"><div class="social-share" data-image="/2025/12/14/3.w2-ai-think/w2-ai-think-cover.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/12/31/5.mcm-F-help-2025/" title="美赛 2025 A 题 F 奖经验贴"><img class="cover" src="/2025/12/31/5.mcm-F-help-2025/mcm-F-help-2025-cover.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">美赛 2025 A 题 F 奖经验贴</div></div><div class="info-2"><div class="info-item-1">记录参加美赛 2025 A 题并获得 F 奖的完整经历，包括选题过程、建模思路、论文撰写供未来参赛者参考。</div></div></div></a><a class="pagination-related" href="/2025/12/14/4.alas-on-pipi5/" title="树莓派 5 部署 ALAS"><img class="cover" src="/2025/12/14/4.alas-on-pipi5/alas-on-pipi5-cover.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">树莓派 5 部署 ALAS</div></div><div class="info-2"><div class="info-item-1">记录在树莓派 5 上部署 ALAS 的完整过程，包括环境准备、依赖兼容问题、排错过程与最终解决方案，供同类场景参考。</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/base-img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">ShaddockNH3</div><div class="author-info-description">Just a humble and obscure soul, dreaming of ascending to prominence while journeying along the path.</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97"><span class="toc-number">1.</span> <span class="toc-text">更新日志</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%9D%E8%80%83"><span class="toc-number">2.</span> <span class="toc-text">思考</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2026/01/16/6.how-stupid-damage-open-source/" title="为什么傻逼总在糟蹋开源"><img src="/2026/01/16/6.how-stupid-damage-open-source/how-stupid-damage-open-source-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="为什么傻逼总在糟蹋开源"/></a><div class="content"><a class="title" href="/2026/01/16/6.how-stupid-damage-open-source/" title="为什么傻逼总在糟蹋开源">为什么傻逼总在糟蹋开源</a><time datetime="2026-01-16T11:04:08.000Z" title="发表于 2026-01-16 19:04:08">2026-01-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/31/5.mcm-F-help-2025/" title="美赛 2025 A 题 F 奖经验贴"><img src="/2025/12/31/5.mcm-F-help-2025/mcm-F-help-2025-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="美赛 2025 A 题 F 奖经验贴"/></a><div class="content"><a class="title" href="/2025/12/31/5.mcm-F-help-2025/" title="美赛 2025 A 题 F 奖经验贴">美赛 2025 A 题 F 奖经验贴</a><time datetime="2025-12-31T11:04:08.000Z" title="发表于 2025-12-31 19:04:08">2025-12-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/14/4.alas-on-pipi5/" title="树莓派 5 部署 ALAS"><img src="/2025/12/14/4.alas-on-pipi5/alas-on-pipi5-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="树莓派 5 部署 ALAS"/></a><div class="content"><a class="title" href="/2025/12/14/4.alas-on-pipi5/" title="树莓派 5 部署 ALAS">树莓派 5 部署 ALAS</a><time datetime="2025-12-14T11:04:08.000Z" title="发表于 2025-12-14 19:04:08">2025-12-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/14/3.w2-ai-think/" title="有关 AI 学习路线的思考"><img src="/2025/12/14/3.w2-ai-think/w2-ai-think-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="有关 AI 学习路线的思考"/></a><div class="content"><a class="title" href="/2025/12/14/3.w2-ai-think/" title="有关 AI 学习路线的思考">有关 AI 学习路线的思考</a><time datetime="2025-12-14T11:04:08.000Z" title="发表于 2025-12-14 19:04:08">2025-12-14</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/06/27/2.fzu-run-introduction/" title="福州大学转专业总介绍">福州大学转专业总介绍</a><time datetime="2025-06-27T11:04:08.000Z" title="发表于 2025-06-27 19:04:08">2025-06-27</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By ShaddockNH3</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

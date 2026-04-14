@@ -1,0 +1,229 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>为什么傻逼总在糟蹋开源 | Shaddock's Blog</title><meta name="author" content="ShaddockNH3"><meta name="copyright" content="ShaddockNH3"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="基于转专业社区维护的真实经历，探讨为何开源项目（泛指）中会出现大量又犟又坏又懒的巨婴用户，以及为何高墙是维护者保护心理防线的唯一手段。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="为什么傻逼总在糟蹋开源">
+<meta property="og:url" content="https://shaddocknh3.github.io/2026/01/16/6.how-stupid-damage-open-source/index.html">
+<meta property="og:site_name" content="Shaddock&#39;s Blog">
+<meta property="og:description" content="基于转专业社区维护的真实经历，探讨为何开源项目（泛指）中会出现大量又犟又坏又懒的巨婴用户，以及为何高墙是维护者保护心理防线的唯一手段。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://shaddocknh3.github.io/2026/01/16/6.how-stupid-damage-open-source/how-stupid-damage-open-source-cover.png">
+<meta property="article:published_time" content="2026-01-16T11:04:08.000Z">
+<meta property="article:modified_time" content="2026-04-14T12:37:51.980Z">
+<meta property="article:author" content="ShaddockNH3">
+<meta property="article:tag" content="转专业">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://shaddocknh3.github.io/2026/01/16/6.how-stupid-damage-open-source/how-stupid-damage-open-source-cover.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "为什么傻逼总在糟蹋开源",
+  "url": "https://shaddocknh3.github.io/2026/01/16/6.how-stupid-damage-open-source/",
+  "image": "https://shaddocknh3.github.io/2026/01/16/6.how-stupid-damage-open-source/how-stupid-damage-open-source-cover.png",
+  "datePublished": "2026-01-16T11:04:08.000Z",
+  "dateModified": "2026-04-14T12:37:51.980Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "ShaddockNH3",
+      "url": "https://shaddocknh3.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/base-img/favicon.png"><link rel="canonical" href="https://shaddocknh3.github.io/2026/01/16/6.how-stupid-damage-open-source/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '为什么傻逼总在糟蹋开源',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/2026/01/16/6.how-stupid-damage-open-source/how-stupid-damage-open-source-cover.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Shaddock's Blog</span></a><a class="nav-page-title" href="/"><span class="site-name">为什么傻逼总在糟蹋开源</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">为什么傻逼总在糟蹋开源</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-01-16T11:04:08.000Z" title="发表于 2026-01-16 19:04:08">2026-01-16</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-04-14T12:37:51.980Z" title="更新于 2026-04-14 20:37:51">2026-04-14</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这篇博客本该安排在今年结束后再动笔，奈何最近越想越烦，索性现在就写出来宣泄一下。</p>
+<p>在正文开始前，我得先给自己叠个甲。</p>
+<p>本人并没有维护过什么惊天动地的大型项目，也不是什么技术大牛。我所做的开源，更多是指公开的整理工作，比如整理文档，或者像大家都会做的——整理历年卷和复习资料。</p>
+<p>曾经我认为纯开源的行为是放弃一切收益，做出来的东西就得给别人免费用。</p>
+<p>不过后来随着时间的推进，我逐渐理解了那些成熟项目的运作逻辑。</p>
+<p>以 RustDesk 为例，这套软件本身是免费的，但搭建服务有两种截然不同的方式。</p>
+<p>第一种是你自己去搭建服务。这意味着你需要自己找一台服务器，耐着性子阅读官方文档，如果碰到问题，你需要继续阅读文档或在网络上寻找别人的解决方法。你付出的代价是时间和学习成本。</p>
+<p>第二种是使用官方提供的付费服务。你付钱，别人为你解决麻烦。</p>
+<p>这让我意识到一个很朴素的道理：人还是要吃饭的。开源不等于就要当义工，更不等于要无底线地伺候别人。</p>
+<p>曾经我和很多人一样天真。我认为，如果我花费时间和精力去恩惠他人，或者回馈那些帮助过我的项目，这种善意是可以传递的。正如我曾经受惠于网上的资料，我也希望成为那个传递火炬的人。</p>
+<p>但现实给了我一记响亮的耳光。</p>
+<p>事实是，懂得反过来感恩的人毕竟是少数。大多不表感恩的沉默者其实也无所谓，大家各取所需，互不打扰。</p>
+<p>最让人心寒的是，会有越来越多的傻逼跳出来，肆意践踏你的心血。</p>
+<p>少数的傻逼足以毁掉整个环境。</p>
+<p>过于圣人只会走向极端的圣母，最后被这些人生吞活剥。我想，这也正是为什么像 ALAS 这样的官方社区，如今越来越趋于极端化、不得不竖起高墙的根本原因。</p>
+<h2 id="什么是蠢，什么是厌蠢"><a href="#什么是蠢，什么是厌蠢" class="headerlink" title="什么是蠢，什么是厌蠢"></a>什么是蠢，什么是厌蠢</h2><p>首先，我们需要界定一下这里讨论的对象。</p>
+<p>事实上我不应该用蠢这个词，因为这容易让人误会我在歧视智商。</p>
+<p>当然，对于那些把厌蠢挂在嘴边，标榜自己患有厌蠢症的人，在我看来，那也是一种真蠢。</p>
+<p>如果你仅仅是因为掌握了更多的信息，就把自己的处事经验强加给别人，那不叫聪明，那是傲慢；对于新手来说，不懂是阅历问题，不是智力问题。</p>
+<p>我们这里所要讨伐的蠢，绝非智商高低，而是指一种又犟、又坏、又懒的恶性复合体。</p>
+<p>这种蠢，本质上是认知匮乏与傲慢的叠加。</p>
+<p>在这些人的认知模型里，开源项目并不是开发者好心施舍的礼物，而被他们默认视为一种理所应当的公共服务。这就形成了一种荒谬的比例关系：</p>
+<p>越是不懂技术、越是没有共情能力的人，觉得自己理应被服务的权利感反而越强。</p>
+<p>他们无法想象创作者为了解决一个 Bug、整理一份文档耗费了多少个日夜，他们脑子里只剩下一个简单的逻辑：我按了按钮没反应，就是你的错。</p>
+<h3 id="傻逼三重奏"><a href="#傻逼三重奏" class="headerlink" title="傻逼三重奏"></a>傻逼三重奏</h3><p>这群人具体表现为三个特征：</p>
+<ol>
+<li>懒。文档明明就在手边，解决方案写得清清楚楚，Ctrl+F 就能搜到的那种，但他们选择视而不见。他们宁愿花时间在群里发一堆问号，张嘴就要喂饭，稍有不顺就大呼小叫。</li>
+<li>坏。他们把开源作者当成免费的 24 小时客服，甚至当成欠他们债的奴仆。你这东西怎么这么难用？——一旦需求得不到满足，恶意便随之而来。</li>
+<li>犟。这是最要命的。当他们的错误被指正时，为了维护那点可怜且脆弱的自尊心，他们绝不承认自己没看文档，反而要反咬一口，指责作者态度不好、高高在上、圈子排外。</li>
+</ol>
+<p>这种人其实是把现实生活中的无力感，发泄到了网络上最好欺负的老好人——开源作者身上。因为他们深知，在网络上骂一个开源作者，几乎不需要付出任何成本。</p>
+<h3 id="强调过无数次的事，为什么还会犯"><a href="#强调过无数次的事，为什么还会犯" class="headerlink" title="强调过无数次的事，为什么还会犯"></a>强调过无数次的事，为什么还会犯</h3><p>本质是傲慢。</p>
+<p>这种傲慢源于一种奇怪的优越感：我的时间是时间，你的时间不是时间。</p>
+<p>在他们看来，阅读文档是浪费他们的时间，而你去回答他们弱智的问题则是你应该做的。他们不关心技术细节，不关心社区礼仪，只关心自己的问题有没有在三秒钟内被解决。</p>
+<p>这种傲慢甚至让他们产生了一种错觉：我用你的东西是给你面子。</p>
+<h2 id="转专业"><a href="#转专业" class="headerlink" title="转专业"></a>转专业</h2><p>我们学校的转专业社区完全是学生自发组建的，本质上就是做慈善，不收任何费用，纯粹靠爱发电。</p>
+<p>原本社区里只有学长学姐零散维护的对应想转专业经验贴，每个人都可以投稿。</p>
+<p>但是这些稿件缺乏系统性的转专业常识，只是转去对应专业的经验。</p>
+<p>后来为了方便大家，我花了非常久的时间去优化、整理了一份常识性的文档。</p>
+<p>在去年文档尚未写的时候，我还心存善意，尽量去回答每个人的问题。</p>
+<p>但是今年，当文档已经落地，一切都写得明明白白的时候，我的心态彻底变了。一旦看到有人问出文档里已经写好的常见问题，我就直接开骂。</p>
+<p>毕竟我直接明晃晃地先把不可以问的问题先贴出来了，你还要往枪口上撞，这不是蠢是什么？如果你问的是不常见的、边边角角的问题，我依然乐意解答，但这群人问的往往就是第一行字就写着的答案。</p>
+<p>这种环境逼得人不得不变得冷漠。</p>
+<p>最近发生了更恶劣的事，有一位热心的学姐被无休止的私聊骚扰到崩溃，最后不得不要求本人彻底下架他写的转专业经验贴。</p>
+<p>下架经验贴看起来是很极端的做法，但这背后是多少次的骚扰和理所当然的索取？</p>
+<p>这几年，慢慢把自己的 QQ 号从帖子里下掉、选择隐身的人不在少数。</p>
+<p>有些人就是这样的，他们觉得只要自己发问了，你就必须回答。</p>
+<p>而对于维护者来说，最开始总会有一种莫名其妙的救世主情结：不回答别人的问题心里就难受，总觉得是不是自己没做到位。</p>
+<p>但现在我要说：放心大胆地直接拒绝。</p>
+<p>你的善良，不该成为别人勒索你的筹码。</p>
+<h2 id="防御性社交"><a href="#防御性社交" class="headerlink" title="防御性社交"></a>防御性社交</h2><p>编程领域有一个经典概念叫防御性编程。通俗来说，就是写代码时预设用户会进行各种误操作，比如在输入年龄的地方输入了 ABC，从而提前写好代码来防范报错。</p>
+<p>而当这个概念延伸到开源社区运营时，就变成了防御性社交。</p>
+<p>当一个开源项目做得太好用、门槛降得太低时，必然会吸引大量毫无技术背景的白嫖党。这些用户数量庞大，且产生的噪音——无论是无效的 Issue 还是情绪化的抱怨，都远远超过了他们可能带来的价值。</p>
+<p>在常规状态下，维护者一开始总是试图感化用户，耐心解答，结果往往是被活活累死或气死。</p>
+<p>于是，为了生存，社区不得不进入极端化。</p>
+<p>这就是为什么我们看到很多成熟社区竖起了高墙：</p>
+<ul>
+<li>设置极高的入群门槛（答题）；</li>
+<li>编写晦涩但详尽的文档（技术需要，筛选机制）；</li>
+<li>执行严厉到近乎无情的群规（不看置顶直接飞）。</li>
+</ul>
+<p>这看起来激进、高冷，甚至不近人情，但就像细胞膜必须阻挡病毒入侵一样，这其实是维护者为了生存而被迫进行的筛选。</p>
+<p>这里的防御，防御的不仅仅是代码层面的报错，更是为了防止这些傻逼用户的行为，击穿维护者仅存的心理防线。</p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>所以，不要责怪开源作者变得冷漠。</p>
+<p>完善文档、提高门槛，本质上是一种筛选机制。</p>
+<p>能读懂文档的，是潜在的同路人；读不懂还不愿意学的，就是必须过滤掉的杂音。</p>
+<p>既然他们不看文档，既然他们缺乏基本的尊重，那竖起高墙，把他们挡在门外，就是对开源热情最好的保护。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://shaddocknh3.github.io">ShaddockNH3</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://shaddocknh3.github.io/2026/01/16/6.how-stupid-damage-open-source/">https://shaddocknh3.github.io/2026/01/16/6.how-stupid-damage-open-source/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://shaddocknh3.github.io" target="_blank">Shaddock's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%BD%AC%E4%B8%93%E4%B8%9A/">转专业</a></div><div class="post-share"><div class="social-share" data-image="/2026/01/16/6.how-stupid-damage-open-source/how-stupid-damage-open-source-cover.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2025/12/31/5.mcm-F-help-2025/" title="美赛 2025 A 题 F 奖经验贴"><img class="cover" src="/2025/12/31/5.mcm-F-help-2025/mcm-F-help-2025-cover.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">美赛 2025 A 题 F 奖经验贴</div></div><div class="info-2"><div class="info-item-1">记录参加美赛 2025 A 题并获得 F 奖的完整经历，包括选题过程、建模思路、论文撰写供未来参赛者参考。</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2023/12/03/1.fzu-run-cs-help-2023/" title="福州大学 2023 车辆转计算机经验贴"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2023-12-03</div><div class="info-item-2">福州大学 2023 车辆转计算机经验贴</div></div><div class="info-2"><div class="info-item-1">2023 福州大学车辆工程转计算机类的经验贴，包含时间线、备考资料、面试记录等详细信息，供有意转专业的同学参考（但已过时，请看另一篇总帖）。</div></div></div></a><a class="pagination-related" href="/2025/06/27/2.fzu-run-introduction/" title="福州大学转专业总介绍"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-06-27</div><div class="info-item-2">福州大学转专业总介绍</div></div><div class="info-2"><div class="info-item-1">福州大学转专业总介绍，包含你能想到的所有问题、想不到的问题，供有意转专业的同学参考。</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/base-img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">ShaddockNH3</div><div class="author-info-description">Just a humble and obscure soul, dreaming of ascending to prominence while journeying along the path.</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E8%A0%A2%EF%BC%8C%E4%BB%80%E4%B9%88%E6%98%AF%E5%8E%8C%E8%A0%A2"><span class="toc-number">2.</span> <span class="toc-text">什么是蠢，什么是厌蠢</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%82%BB%E9%80%BC%E4%B8%89%E9%87%8D%E5%A5%8F"><span class="toc-number">2.1.</span> <span class="toc-text">傻逼三重奏</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%BA%E8%B0%83%E8%BF%87%E6%97%A0%E6%95%B0%E6%AC%A1%E7%9A%84%E4%BA%8B%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E4%BC%9A%E7%8A%AF"><span class="toc-number">2.2.</span> <span class="toc-text">强调过无数次的事，为什么还会犯</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BD%AC%E4%B8%93%E4%B8%9A"><span class="toc-number">3.</span> <span class="toc-text">转专业</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%98%B2%E5%BE%A1%E6%80%A7%E7%A4%BE%E4%BA%A4"><span class="toc-number">4.</span> <span class="toc-text">防御性社交</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%93%E8%AF%AD"><span class="toc-number">5.</span> <span class="toc-text">结语</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2026/01/16/6.how-stupid-damage-open-source/" title="为什么傻逼总在糟蹋开源"><img src="/2026/01/16/6.how-stupid-damage-open-source/how-stupid-damage-open-source-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="为什么傻逼总在糟蹋开源"/></a><div class="content"><a class="title" href="/2026/01/16/6.how-stupid-damage-open-source/" title="为什么傻逼总在糟蹋开源">为什么傻逼总在糟蹋开源</a><time datetime="2026-01-16T11:04:08.000Z" title="发表于 2026-01-16 19:04:08">2026-01-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/31/5.mcm-F-help-2025/" title="美赛 2025 A 题 F 奖经验贴"><img src="/2025/12/31/5.mcm-F-help-2025/mcm-F-help-2025-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="美赛 2025 A 题 F 奖经验贴"/></a><div class="content"><a class="title" href="/2025/12/31/5.mcm-F-help-2025/" title="美赛 2025 A 题 F 奖经验贴">美赛 2025 A 题 F 奖经验贴</a><time datetime="2025-12-31T11:04:08.000Z" title="发表于 2025-12-31 19:04:08">2025-12-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/14/4.alas-on-pipi5/" title="树莓派 5 部署 ALAS"><img src="/2025/12/14/4.alas-on-pipi5/alas-on-pipi5-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="树莓派 5 部署 ALAS"/></a><div class="content"><a class="title" href="/2025/12/14/4.alas-on-pipi5/" title="树莓派 5 部署 ALAS">树莓派 5 部署 ALAS</a><time datetime="2025-12-14T11:04:08.000Z" title="发表于 2025-12-14 19:04:08">2025-12-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/14/3.w2-ai-think/" title="有关 AI 学习路线的思考"><img src="/2025/12/14/3.w2-ai-think/w2-ai-think-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="有关 AI 学习路线的思考"/></a><div class="content"><a class="title" href="/2025/12/14/3.w2-ai-think/" title="有关 AI 学习路线的思考">有关 AI 学习路线的思考</a><time datetime="2025-12-14T11:04:08.000Z" title="发表于 2025-12-14 19:04:08">2025-12-14</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/06/27/2.fzu-run-introduction/" title="福州大学转专业总介绍">福州大学转专业总介绍</a><time datetime="2025-06-27T11:04:08.000Z" title="发表于 2025-06-27 19:04:08">2025-06-27</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By ShaddockNH3</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
